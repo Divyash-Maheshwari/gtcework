@@ -50,7 +50,7 @@
 
       <!-- Remove the example and replace with your own activities -->
       <xi:include href="./activities/01-intro-activity.ptx"/>
-      <xi:include href="./activities/Math_1554_Worksheets.ptx"/>
+      <xi:include href="./activities/ws24.ptx"/>
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
