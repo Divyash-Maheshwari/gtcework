@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Syllabus</title>
+
+  <introduction>
+    <p>
+    </p>
+  </introduction>
+  <!-- Include chapters -->
+  <subsection xml:id="sec-course-info">
+    <title>Course Information</title>
+
+    <p>
+      This is the syllabus for <term>course name (MATH xxx, section xxx)</term> for [term] 20xx.
+      It is a [n] credit course.
+      <!-- use a description list (dl) for short items -->
+      <dl>
+        <li>
+          <title>Instructor</title>
+
+          <p>
+            Prof. Lastname, Office Location, <url href="mailto:prof.lastname@example.edu">prof.lastname@example.edu</url>.
+          </p>
+        </li>
+
+        <li>
+          <title>Student Hours</title>
+
+          <p>
+            TBD
+          </p>
+        </li>
+
+        <li>
+          <title>Class meets</title>
+
+          <p>
+            course times and location.
+          </p>
+        </li>
+
+        <li>
+          <title>Course Description</title>
+
+          <p>
+            course description from catalog
+          </p>
+        </li>
+
+        <li>
+          <title>Prerequisite</title>
+
+          <p>
+            list of prerequisites
+          </p>
+        </li>
+
+        <li>
+          <title>Textbook and course materials</title>
+
+          <p>
+            <pubtitle>textbook name</pubtitle>
+            by textbook author.
+          </p>
+        </li>
+      </dl>
+    </p>
+
+  <!-- Use paragraphs to break apart subsections -->
+    <paragraphs>
+      <title>Course Overview</title>
+
+      <p>
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <!-- Other subsections for larger dividers -->
+  <subsection xml:id="sec-assessments">
+    <title>Assessments and Grades</title>
+
+    <p>
+    </p>
+  </subsection>
+</section>

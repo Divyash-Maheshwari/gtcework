@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- When creating a new activity, make a copy of this file with appropriate name -->
+<worksheet xml:id="ws_24_1554">
+  <title>24 Quadratic Forms (LN 2.2, 2.3)</title>
+
+  <page>
+      <p>
+        <alert>Poll Question</alert>
+      </p>
+      <p>
+         True or false: <m>Q(x,y) = 8x^2 + 2y^2 - 8xy \gt 0</m> for all values of <m>x</m> and <m>y</m>.
+      </p>
+      <p>
+        <em>Hint: Plot it in Desmos 3D! And: how does this exercise relate to
+        symmetric matrices? </em>
+      </p>
+  </page>
+
+  <page>
+    <paragraphs>
+    <title>24.1 Expressing Quadratic Forms in Terms of Symmetric Matrices</title>
+      <p></p><m></m><p></p>
+      <p><term>Definition</term></p>
+        <p>
+          A <term>quadratic form</term> is a function
+          <m>Q : \mathbb{R}^n \to \mathbb{R}</m>, given by </p>
+          <p><m>
+            Q(\vec{x}) = \vec{x}^T A \vec{x} =
+            \begin{pmatrix} x_1 \amp x_2 \amp \cdots \amp x_n \end{pmatrix}
+            \begin{pmatrix}
+              a_{11} \amp a_{12} \amp \cdots \amp a_{1n} \\
+              a_{12} \amp a_{22} \amp \cdots \amp a_{2n} \\
+              \vdots \amp \vdots \amp \ddots \amp \vdots \\
+              a_{1n} \amp a_{2n} \amp \cdots \amp a_{nn}
+            \end{pmatrix}
+            \begin{pmatrix} x_1 \\ x_2 \\ \vdots \\ x_n \end{pmatrix}
+          </m></p>
+       
+          <p> Matrix <m>A</m> is <m>n \times n</m> and symmetric, and <m>\vec{x}</m> is a variable vector in <m>\mathbb{R}^n</m>. </p>
+          <p> Example: express <m>Q = 3x^2_1 + x^2_2 + 8x^3_3 + 4x_1x_2 - 6x_2x_3</m> in the form <m>Q = x^T Ax</m>. </p>
+      </paragraphs>
+  </page>
+  <page>
+    <paragraphs>
+    <title>24.2 The Principle Axes Theorem</title>
+    <p></p><m></m><p></p>
+      <p><term>Theorem</term></p>
+        <p>
+          If <m>A</m> is a symmetric matrix then there exists an orthogonal change of variable <m>\vec{x} = P \vec{y}</m> that transforms <m>\vec{x}^T A \vec{x}</m> to <m>\vec{y}^T D \vec{y}</m> with no cross-product terms.
+        </p>
+          <p><em>Proof in the lecture videos/textbook.</em></p>
+          <p><m>\textbf{24.2.1 Example}</m></p>
+          <p>Consider: <m>Q = x^2 + y^2 + 2kxy</m> where <m>k \in \mathbb{R}</m>.</p>
+          <p>
+            <ol marker="a)">
+              <li>Make a change of variable that transforms the quadratic form into another quadratic form that has no cross-product terms.</li>
+              <li>For what values of <m>k</m> will <m>Q</m> satisfy <m>Q \geq 0</m> for any <m>x</m> and <m>y</m>?</li>
+            </ol>
+          </p>
+          <p><em>Tip: it may help to plot the surfaces in Desmos 3D to see what the surface looks like as you change the value of <m>k</m>.</em></p>
+  </paragraphs>
+  </page>
+
+  <page>
+    <paragraphs>
+    <title>24.3 Classifying Quadratic Surfaces</title>
+    <p></p><m></m><p></p>
+      <p>Our goal: <term>solve optimization problems with quadratic functions.</term></p>
+      <p>Take for example the surface: </p>
+        <p><m>
+          Q = x^2 y^2 = \vec{x}^t
+          \begin{pmatrix}
+            1 \amp 0 \\
+            0 \amp 1 
+          \end{pmatrix}
+          \vec{x}
+        </m></p>
+     
+      <p>
+        If we set <m>Q</m> to be constant, <m>Q = k^2</m>, we obtain the equation of a circle whose radius is <m>k^2</m>.     </p>
+        <p><m>
+          k^2 = x^2 +  y^2
+        </m></p>
+  
+      
+      
+                
+                <image xml:id="f24-3-1" width="50%">
+                    <latex-image>
+                    \begin{tikzpicture}[scale=1]
+                    \begin{axis}[
+                        axis line style = very thick, smooth, 
+                        xmin=-4,ymin=-4,zmin=0,xmax=4,ymax=4,zmax=10,
+                        axis lines=center,
+                        xticklabels={,,}, yticklabels={,,},zticklabels={,,},
+                        xtick=\empty, ytick=\empty, ztick=\empty, 
+                        % xlabel = $x$,ylabel=$y$,zlabel=$z$
+                        ]
+                    \addplot3 [surf,shader=flat,draw=black,draw=none,restrict z to domain=0:9, data cs=polar, domain=0:360, y domain=0:3] (x, y, y^2);
+                  \end{axis}    
+                  \end{tikzpicture}
+                    </latex-image>
+                </image>
+            <p>The surface above has a unique minimum at the origin. What about other surfaces?</p>
+            <p><term>Definition</term></p>
+              <p>A quadratic form <m>Q</m> is
+                <ul>
+                  <li><p><term>positive definite</term> if <m>Q \gt 0</m> for all <m>\vec{x} \neq \vec{0}.</m></p></li>
+                  <li><p><term>negative definite</term> if <m>Q \lt 0</m> for all <m>\vec{x} \neq \vec{0}.</m></p></li>
+                  <li><p><term>positive semidefinite</term> if <m>Q \geq 0</m> for all <m>\vec{x}.</m></p></li>
+                  <li><p><term>negative semidefinite</term> if <m>Q \leq 0</m> for all <m>\vec{x}.</m></p></li>
+                  <li><p><term>indefinite</term> if <m>Q</m> takes on positive and negative values for <m>\vec{x} \neq \vec{0}.</m></p></li>
+                </ul>
+              </p>
+              <p><term>Theorem</term></p>
+              <p>If <m>A</m> is a matrix with eigenvalues <m>\lambda_i</m>, then <m>Q = \vec{x}^T A\vec{x}</m> is
+                <ul>
+                  <li><p><term>positive definite</term> when all eigenvalues are positive</p></li>
+                  <li><p><term>negative definite</term> when all eigenvalues are negative</p></li>
+                  <li><p><term>indefinite</term> when at least one eigenvalue is negative and at least one eigenvalue is positive</p></li>
+                </ul>
+              </p>
+            </paragraphs>
+  </page>
+  <page>
+    <paragraphs>
+      <title>24.3.1 Example</title>
+      <p></p><m></m><p></p>
+        <p>Assume <m>\vec{x} \in \mathbb{R}^3</m>. Construct the matrix of the quadratic form, and classify the quadratic form.</p>
+        <md><mrow>Q = 4x^2_3 - 2x_1x_2</mrow></md>
+    </paragraphs>
+  </page>
+  <!-- Optional introduction -->
+  
+  <!-- Exercises start here. -->
+  <!--<exercise workspace="2in">
+    <statement>
+      <p>
+        This is the first exercise.
+      </p>
+    </statement>
+  </exercise>
+  -->
+</worksheet>
