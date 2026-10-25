@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet xml:id="se1b">
+  <title>Linear Algebra Sample Exam 1B</title>
+
+  <introduction>
+    <p>
+      <em>Work done on scratch paper will not be graded. You don't need to show your work on pages 1 and 2.</em>
+    </p>
+  </introduction>
+
+  <!-- Question 1 -->
+  <exercise>
+    <statement>
+      <p>
+        (5 points) Indicate whether the situations are <term>possible</term> or <term>impossible</term>.
+      </p>
+        <tabular halign="left">
+          <col width="76%" halign="left" />
+          <col width="12%" halign="center" />
+          <col width="12%" halign="center" />
+          <row bottom="minor">
+            <cell></cell>
+            <cell>possible</cell>
+            <cell>impossible</cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><p>a) Vector <m>\vec{b} \in \mathbb{R}^m</m> is in the span of the columns of <m>m \times n</m> matrix <m>A</m> and the linear system <m>A\vec{x} = \vec{b}</m> is inconsistent, where <m>\vec{x} \in \mathbb{R}^n</m>.</p></cell>
+            <cell><m>\bigcirc</m></cell>
+            <cell><m>\bigcirc</m></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><p>b) <m>V</m> is a collection of three vectors in <m>\mathbb{R}^3</m>. No two vectors in <m>V</m> are scalar multiples of each other, but the vectors in <m>V</m> are linearly dependent.</p></cell>
+            <cell><m>\bigcirc</m></cell>
+            <cell><m>\bigcirc</m></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><p>c) Matrices <m>A</m> and <m>B</m> are row equivalent, <m>\vec{x} \in \mathbb{R}^n</m>, <m>A\vec{x} = \vec{0}</m> but <m>B\vec{x} \neq \vec{0}</m>.</p></cell>
+            <cell><m>\bigcirc</m></cell>
+            <cell><m>\bigcirc</m></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><p>d) <m>T(\vec{x}) = A\vec{x}</m> is an onto linear transform and <m>A</m> is <m>3 \times 4</m>.</p></cell>
+            <cell><m>\bigcirc</m></cell>
+            <cell><m>\bigcirc</m></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell bottom="minor"><p>e) <m>T(\vec{x}) = A\vec{x}</m> is a one-to-one linear transform, <m>A</m> is <m>6 \times 2</m>, <m>\vec{b}</m> is a vector that is in the co-domain of the transform but not the range of the transform.</p></cell>
+            <cell><m>\bigcirc</m></cell>
+            <cell><m>\bigcirc</m></cell>
+          </row>
+        </tabular>
+    </statement>
+  </exercise>
+
+<!-- blank space -->
+<p></p><m></m><p></p><m></m><p></p><m></m><p></p><m></m><p></p>
+
+
+<!-- Question 2 -->
+  <exercise>
+    <statement>
+      <p>
+        (7 points) Indicate <term>true</term> if the statement is true, otherwise, indicate <term>false</term>.
+      </p>
+        <tabular halign="left">
+          <col width="88%" halign="left" />
+          <col width="6%" halign="center" />
+          <col width="6%" halign="center" />
+          <row bottom="minor">
+            <cell></cell>
+            <cell>true</cell>
+            <cell>false</cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><p>a) The transform <m>T(x_1, x_2, x_3) = (x_1 +1, x_2, x_3)</m> is a linear transform.</p></cell>
+            <cell><m>\bigcirc</m></cell>
+            <cell><m>\bigcirc</m></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><p>b) If <m>A</m> is <m>2 \times 3</m>, then the transformation <m>\vec(x) \to A\vec{x}</m> cannot be one-to-one.</p></cell>
+            <cell><m>\bigcirc</m></cell>
+            <cell><m>\bigcirc</m></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><p>c) If <m>A</m> is <m>m \times n</m>, <m>\vec{b}</m> is a vector in <m>\mathbb{R}^m</m>, and <m>A\vec{x} \to \vec{b}</m> is consistent, then <m>A</m> has <m>n</m> pivots.</p></cell>
+            <cell><m>\bigcirc</m></cell>
+            <cell><m>\bigcirc</m></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><p>d) If an <m>m \times n</m> matrix <m>A</m> has linearly dependent columns and <m>\vec{x} \in \mathbb{R}^n</m>, then the homogeneous equation <m>A\vec{x} = \vec{0}</m> must have non-trivial solutions.</p></cell>
+            <cell><m>\bigcirc</m></cell>
+            <cell><m>\bigcirc</m></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell><p>e) If <m>\vec{x} \in \mathbb{R}^n</m>, and <m>\vec{b} \in \mathbb{R}^m</m> is not a linear combination of the columns of an <m>m \times n </m> matrix <m>A</m>, then the linear system <m>A\vec{x} = \vec{b}</m> must be inconsistent.</p></cell>
+            <cell><m>\bigcirc</m></cell>
+            <cell><m>\bigcirc</m></cell>
+          </row>
+          <row>
+            <cell><p>f) If a natrix <m>A</m> has fewer rows than columns, then the homogeneous system <m>A\vec{x} = \vec{0}</m> must have infinitely many solutions.</p></cell>
+            <cell><m>\bigcirc</m></cell>
+            <cell><m>\bigcirc</m></cell>
+          </row>
+          <row bottom="minor">
+            <cell><p>g) If matrices <m>A</m> and <m>B</m> are row equivalent, then they have the same RREF.</p></cell>
+            <cell><m>\bigcirc</m></cell>
+            <cell><m>\bigcirc</m></cell>
+          </row>
+        </tabular>
+    </statement>
+  </exercise>
+
+</worksheet>

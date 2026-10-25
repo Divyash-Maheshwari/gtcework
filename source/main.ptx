@@ -51,6 +51,7 @@
       <!-- Remove the example and replace with your own activities -->
       <xi:include href="./activities/01-intro-activity.ptx"/>
       <xi:include href="./activities/ws24.ptx"/>
+      <xi:include href="./activities/se1b.ptx"/>
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
