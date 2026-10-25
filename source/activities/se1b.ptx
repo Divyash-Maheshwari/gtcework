@@ -69,8 +69,8 @@
             <cell></cell>
             <cell></cell>
           </row>
-          <row>
-            <cell bottom="minor"><p>e) <m>T(\vec{x}) = A\vec{x}</m> is a one-to-one linear transform, <m>A</m> is <m>6 \times 2</m>, <m>\vec{b}</m> is a vector that is in the co-domain of the transform but not the range of the transform.</p></cell>
+          <row bottom="minor">
+            <cell><p>e) <m>T(\vec{x}) = A\vec{x}</m> is a one-to-one linear transform, <m>A</m> is <m>6 \times 2</m>, <m>\vec{b}</m> is a vector that is in the co-domain of the transform but not the range of the transform.</p></cell>
             <cell><m>\bigcirc</m></cell>
             <cell><m>\bigcirc</m></cell>
           </row>
