@@ -17,7 +17,7 @@
     \newcommand{\R}{\mathbb R}
   </macros>
 
-  <!-- If you put any latex-image elements you can include preambles -->
+  <!-- If you put any latex-image elements you can include  preambles -->
   <latex-image-preamble>
     \usepackage{graphicx}
 \usepackage{tikz, pgfplots}
