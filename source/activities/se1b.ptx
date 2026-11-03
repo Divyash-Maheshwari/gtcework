@@ -12,7 +12,7 @@
 <!-- Page 1 -->
 <page>
   <!-- Question 1 -->
-  <exercise workspace="1in">
+  <exercise>
     <statement>
       <p>
         (5 points) Indicate whether the situations are <term>possible</term> or <term>impossible</term>.
@@ -84,7 +84,8 @@
         </tabular>
     </statement>
   </exercise>
-
+  <!-- Blank Space -->
+  <p><m></m></p><p><m></m></p><p><m></m></p><p><m></m></p><p><m></m></p><p><m></m></p>
   <!-- Question 2 -->
   <exercise>
     <statement>
@@ -254,5 +255,91 @@
       <task><p>Consider the linear system <m>x + hy = 3</m> and <m>4x + 8y = k</m>. The system will have no solutions when <m>k = 0</m> and <m>h = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>. But the system will have an infinite number of solutions when <m>h = 2</m> and <m>k = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>.</p></task>
       </exercise>
 </page>
+
+<!-- Page 3 -->
+<page>
+  <exercise>
+    <statement>
+      <p>
+        (2 points) Suppose <m>\vec{v}_1, \vec{v}_2</m> are non-zero vectors in <m>\mathbb{R}^n</m>,
+        and that <m>\vec{v}_1</m> and <m>\vec{v}_2</m> span a plane.
+        Then <m>S = \text{Span}\{\vec{v}_1, \vec{v}_2\}</m> is equal to which of the sets below?
+        You do not need to show your work.
+      </p>
+      <tabular>
+        <col width="60%" halign="left"/>
+        <col width="20%" halign="center"/>
+        <col width="20%" halign="center"/>
+        <row header="yes" bottom="minor">
+          <cell/>
+          <cell>equal to <m>S</m></cell>
+          <cell>not equal to <m>S</m></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><p>a) <m>W = \text{Span}\{\vec{v}_1, \vec{v}_2, 3\vec{v}_1\}</m></p></cell>
+          <cell><p><m>\bigcirc</m></p></cell>
+          <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><p>b) <m>U = \text{Span}\{\vec{v}_1, \vec{v}_2, \vec{v}_1 + 2\vec{v}_2\}</m></p></cell>
+          <cell><p><m>\bigcirc</m></p></cell>
+          <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><p>c) <m>X = \text{Span}\{\vec{v}_1 + \vec{v}_2, 2\vec{v}_1 + 2\vec{v}_2\}</m></p></cell>
+          <cell><p><m>\bigcirc</m></p></cell>
+          <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell><p>d) <m>Y = \text{Span}\{\vec{v}_2, 2\vec{v}_2\}</m></p></cell>
+          <cell><p><m>\bigcirc</m></p></cell>
+          <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row bottom="minor">
+          <cell><p><m></m></p></cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+
+  <exercise workspace="3in">
+    <statement>
+      <p>
+        (2 points) Please show your work for this question.
+      </p>
+      <p>
+        For what values of <m>k</m>, if any, are the vectors linearly dependent? Please show your work.
+      </p>
+      <me>
+        v_1 = \begin{pmatrix} 1 \\ 0 \\ k \end{pmatrix}, \quad
+        v_2 = \begin{pmatrix} 0 \\ 1 \\ 1 \end{pmatrix}, \quad
+        v_3 = \begin{pmatrix} -k \\ 6k \\ 8 \end{pmatrix}
+      </me>
+    </statement>
+  </exercise>
+  </page>
+
 
 </worksheet>
