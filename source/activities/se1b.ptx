@@ -9,6 +9,8 @@
     </p>
   </introduction>
 
+<!-- Page 1 -->
+<page>
   <!-- Question 1 -->
   <exercise>
     <statement>
@@ -83,11 +85,10 @@
     </statement>
   </exercise>
 
-<!-- blank space -->
-<p></p><m></m><p></p><m></m><p></p><m></m><p></p><m></m><p></p>
+  <!-- blank space -->
+  <p></p><m></m><p></p><m></m><p></p><m></m><p></p><m></m><p></p>
 
-
-<!-- Question 2 -->
+  <!-- Question 2 -->
   <exercise>
     <statement>
       <p>
@@ -180,5 +181,63 @@
         </tabular>
     </statement>
   </exercise>
+</page>
+
+<!-- Page 2 -->
+<page>
+  <!-- Question 3 -->
+    <exercise>
+      <statement><p>(2 points) Suppose 
+      <m>A = 
+      \begin{pmatrix}
+        2 \amp 1 \\
+        4 \amp 2 
+      \end{pmatrix}</m>, 
+      <m>\vec{b} = 
+      \begin{pmatrix}
+        2 \\
+        4
+      \end{pmatrix}</m>.
+      In the grids below, sketch a) the range of the transform <m>x \to Ax</m>, and b) the solution set of <m>A\vec{x} = \vec{b}</m>. You do not need to show your work.
+      </p>
+      <sidebyside widths="10% 35% 10% 35% 10%">  
+          <p> (a) </p>
+          <image width="100%">
+            <prefigure label="se1b-3-a" xmlns="https://prefigure.org">
+            <diagram dimensions="(300,300)" margins="5">
+            <coordinates bbox="(-4,-4,4,4)">
+              <grid-axes arrows="1" xlabel="x_1" ylabel="x_2"/>    
+            </coordinates>
+            </diagram>
+            </prefigure>
+          </image>
+
+          <p> (b)</p>
+          <image width="100%">
+            <prefigure label="pse1b-3-b" xmlns="https://prefigure.org">
+            <diagram dimensions="(300,300)" margins="5">
+            <coordinates bbox="(-4,-4,4,4)">
+              <grid-axes arrows="1" xlabel="x_1" ylabel="x_2"/>    
+            </coordinates>
+            </diagram>
+            </prefigure>
+          </image>
+      </sidebyside>
+      </statement>
+    </exercise>
+  <!-- Question 4 -->
+    <exercise>
+      <introduction><p>(7 points) Fill in the blanks. You do not need to justify your reasoning.</p></introduction>
+        <task marker="a"><p>If <m>A</m> is <m>2 \times 2</m> and <m>T_A (\vec{x}) = A\vec{x}</m> is a linear transform that first rotates points in <m>\mathbb{R}^2</m> counter-clockwise about the origin by <m>\pi/2</m> radians and then reflects them through the line <m>x_1 = 0</m>, then
+  <m>A = \begin{pmatrix} a_1 &amp; a_2 \\ a_3 &amp; a_4 \end{pmatrix}</m>
+  where
+  <m>a_1 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>,
+  <m>a_2 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>,
+  <m>a_3 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>,
+  and <m>a_4 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>.
+</p></task>
+    </exercise>
+   
+</page>
 
 </worksheet>
