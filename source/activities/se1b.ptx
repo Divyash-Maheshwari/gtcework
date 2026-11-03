@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!-- Written by Divyash Maheshwari (pg 1-2) and Arush C (pg 3) -->
 <worksheet xml:id="se1b">
   <title>Linear Algebra Sample Exam 1B</title>
 
@@ -12,7 +12,7 @@
 <!-- Page 1 -->
 <page>
   <!-- Question 1 -->
-  <exercise>
+  <exercise workspace="1in">
     <statement>
       <p>
         (5 points) Indicate whether the situations are <term>possible</term> or <term>impossible</term>.
@@ -84,9 +84,6 @@
         </tabular>
     </statement>
   </exercise>
-
-  <!-- blank space -->
-  <p></p><m></m><p></p><m></m><p></p><m></m><p></p><m></m><p></p>
 
   <!-- Question 2 -->
   <exercise>
@@ -228,16 +225,34 @@
   <!-- Question 4 -->
     <exercise>
       <introduction><p>(7 points) Fill in the blanks. You do not need to justify your reasoning.</p></introduction>
-        <task marker="a"><p>If <m>A</m> is <m>2 \times 2</m> and <m>T_A (\vec{x}) = A\vec{x}</m> is a linear transform that first rotates points in <m>\mathbb{R}^2</m> counter-clockwise about the origin by <m>\pi/2</m> radians and then reflects them through the line <m>x_1 = 0</m>, then
-  <m>A = \begin{pmatrix} a_1 &amp; a_2 \\ a_3 &amp; a_4 \end{pmatrix}</m>
-  where
-  <m>a_1 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>,
-  <m>a_2 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>,
-  <m>a_3 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>,
-  and <m>a_4 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>.
-</p></task>
-    </exercise>
-   
+      <task><p>If <m>A</m> is <m>2 \times 2</m> and <m>T_A (\vec{x}) = A\vec{x}</m> is a linear transform that first rotates points in <m>\mathbb{R}^2</m> counter-clockwise about the origin by <m>\pi/2</m> radians and then reflects them through the line <m>x_1 = 0</m>, then <m>A = \begin{pmatrix} a_1 &amp; a_2 \\ a_3 &amp; a_4 \end{pmatrix}</m> where <m>a_1 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>, <m>a_2 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>, <m>a_3 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>, and <m>a_4 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>.</p></task>
+      <task><p>Suppose matrix <m>A</m> is <m>2 \times 2</m>, has exactly one pivot, is in RREF, and every entry of <m>A</m> is either <m>1</m> or <m>0</m>. How many matrices can you construct that meet all these criteria? <m>\fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m></p></task>
+      <task><p>Suppose <m>T(\vec{x})</m> is a linear transform such that <m>T : \mathbb{R}^c \to \mathbb{R}^d</m>. If <m>T(\vec{x}) = A\vec{x}</m>, and <m>A</m> is <m>12 \times 3</m>, then <m>c = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m> and <m>d = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>.</p></task>
+      <task><p>Suppose <m>A</m> is <m>4 \times 6</m>, the linear system <m> A\vec{x} = \vec{b}</m> is consistent, and the parametric vector form of the solution set is <m>\vec{x} = x_2 \vec{v}_1 + x_4 \vec{v}_2</m>. Then <m>\vec{v}_1</m> has <m>\fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m> entries, and <m>\vec{b}</m> has <m>\fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m> entries.</p></task>
+      <task><p>Suppose <m>\vec{v}_1 = \begin{pmatrix}
+        5 \\
+        8 \\
+        15
+        \end{pmatrix}</m>, <m>\vec{v}_2 = 
+        \begin{pmatrix}
+        2 \\
+        3 \\
+        6
+        \end{pmatrix}</m>, and <m>\vec{y} = \begin{pmatrix}
+        y_1 \\
+        y_2 \\
+        y_3
+        \end{pmatrix}</m>. If <m>A</m> has <m>2</m> pivots, then transform <m>T(\vec{x}) = A\vec{x}</m> satisfies <m>T(\vec{v}_1) = 2T(\vec{v}_2) \neq \vec{0}</m>, <m>y_3 = 3</m>, and <m>\vec{y}</m> satisfies <m>A\vec{y} = \vec{0}</m>, then <m>y_1 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>, <m>y_2 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>.</p></task>
+      <task><p>The linear system whose augmented matrix is <m>
+        \left(
+          \begin{array}{cc|c}
+          1 &amp; 1 &amp; 1 \\
+          2 &amp; k &amp; 1
+          \end{array}
+        \right)
+        </m> is inconsistent when <m>k = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>.</p></task>
+      <task><p>Consider the linear system <m>x + hy = 3</m> and <m>4x + 8y = k</m>. The system will have no solutions when <m>k = 0</m> and <m>h = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>. But the system will have an infinite number of solutions when <m>h = 2</m> and <m>k = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>.</p></task>
+      </exercise>
 </page>
 
 </worksheet>
