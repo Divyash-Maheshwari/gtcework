@@ -198,7 +198,7 @@
       \end{pmatrix}</m>.
       In the grids below, sketch a) the range of the transform <m>x \to Ax</m>, and b) the solution set of <m>A\vec{x} = \vec{b}</m>. You do not need to show your work.
       </p>
-      <sidebyside widths="10% 35% 10% 35% 10%">  
+      <sidebyside widths="8% 40% 8% 40%">  
           <p> (a) </p>
           <image width="100%">
             <prefigure label="se1b-3-a" xmlns="https://prefigure.org">
