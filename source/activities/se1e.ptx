@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Transcribed by Divyash Maheshwari -->
+<worksheet xml:id="se1e">
+  <title>Linear Algebra Sample Exam 1E</title>
+
+  <introduction>
+    <p>
+      <em>Work done on scratch paper will not be graded. You don't need to show your work on pages 1 and 2.</em>
+    </p>
+  </introduction>
+<!-- Page 1 -->
+    <page>
+    <exercise workspace="2in">
+        <statement>
+        <p>
+            (7 points) Indicate <term>true</term> if the statement is true, otherwise, indicate <term>false</term>.
+        </p>
+        <tabular halign="left">
+            <col width="88%" />
+            <col width="6%" />
+            <col width="6%" />
+            <row bottom="minor" >
+                <cell></cell>
+                <cell>true</cell>
+                <cell>false</cell>
+            </row>
+            <row>
+                <cell>a) If <m>\vec{c}_1</m> and <m>\vec{c}_2</m> are the standard vectors in <m>\mathbb{R}^2</m>, and <m>T(\vec{x})= A\vec{x}</m> is a matrix transform that satisfies <m>T(\vec{c}_1) = T(\vec{c}_2) = 1</m>, then <m>A = \begin{pmatrix} 1 &amp; 1 \\ \begin{pmatrix}</m>.</cell>
+                <cell><m>\bigcirc</m></cell>
+                <cell><m>\bigcirc</m></cell>
+            </row>
+            <row>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>b) If <m> A</m> is <m>2 \times 3</m>, then the transformation <m>\vec{x} \to A\vec{x}</m> cannot be onto.</cell>
+                <cell><m>\bigcirc</m></cell>
+                <cell><m>\bigcirc</m></cell>
+            </row>
+            <row>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>c) If <m>\vec{x}_1</m> is a solution to the inhomogeneous system <m>A\vec{x} = \vec{b}</m>, then any vector in Span<m>\{\vec{x}_1}</m> is also a solution to <m>A\vec{x} = \vec{b}</m>.</cell>
+                <cell><m>\bigcirc</m></cell>
+                <cell><m>\bigcirc</m></cell>
+            </row>
+            <row>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>d) If there are non-trivial solutions to the linear system <m>A\{x} = \vec{0}</m>, then the columns of <m>A</m> must be linearly independent.</cell>
+                <cell><m>\bigcirc</m></cell>
+                <cell><m>\bigcirc</m></cell>
+            </row>
+            <row>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>e) If the linear system <m>A\vec{x} = \vec{b}</m> is inconsistent, then <m>\vec{b}</m> cannot be in the span of the columns of <m>A</m>.</cell>
+                <cell><m>\bigcirc</m></cell>
+                <cell><m>\bigcirc</m></cell>
+            </row>
+            <row>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>f) If <m>\vec{x}</m> is a nontrivial solution of <m>A\vec{x} = \vec{0}</m>, then every entry of <m>\vec{x}</m> is nonzero.</cell>
+                <cell><m>\bigcirc</m></cell>
+                <cell><m>\bigcirc</m></cell>
+            </row>
+            <row>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell>g) Suppose <m>A</m> and <m>E</m> are <m>n \times n</m> matrices. If <m>A</m> is row equivalent to <m>E</m>, and the first column of <m>A</m> is pivotal, then the first column of <m>E</m> is also pivotal.</cell>
+                <cell><m>\bigcirc</m></cell>
+                <cell><m>\bigcirc</m></cell>
+            </row>
+            <row bottom="minor">
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+        </tabular>
+        </statement>
+    </exercise>
+    </page>
+
+</worksheet>
