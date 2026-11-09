@@ -153,7 +153,7 @@
                     <cell></cell>
                 </row>
                 <row>
-                    <cell>e) <m>T(\vec{x})</m> is a linear transform that maps vectors in <m>R^n</m> to <m>\mathbb{R}</m>, </cell>
+                    <cell>e) <m>T(\vec{x})</m> is a linear transform that maps vectors in <m>R^n</m> to <m>\mathbb{R}</m>, <m>\vec{0}</m> is the zero vector with exactly<m>n</m> entries, and <m>T(\vec{0}) \neq \vec{0}</m>.</cell>
                     <cell><m>\bigcirc</m></cell>
                 </row>
                 <row>
