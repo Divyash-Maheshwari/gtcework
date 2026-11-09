@@ -98,6 +98,72 @@
         </tabular>
         </statement>
     </exercise>
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                (5 points) Indicate whether the situations are <term>possible</term> or <term>impossible</term>.
+            </p>
+            <tabular>
+                <col width="76%" />
+                <col width="12%" />
+                <col width="12%" />
+                <row bottom="minor">
+                    <cell></cell>
+                    <cell>possible</cell>
+                    <cell>impossible</cell>
+                </row>
+                <row>
+                    <cell>a) <m>A</m> is a <m>5 \times </m> matrix that has 3<m>3</m> pivotal columns, and <m>A\vec{x} = \vec{b}</m> is a linear system with <m>2</m> free variables.</cell>
+                    <cell><m>\bigcirc</m></cell>
+                    <cell><m>\bigcirc</m></cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>b) <m>A</m> is a <m>3 \times 4</m> matrix whose columns are linearly independent and span <m>\mathbb{R}^3</m>.</cell>
+                    <cell><m>\bigcirc</m></cell>
+                    <cell><m>\bigcirc</m></cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>c) The augmented matrix <m>\left( \begin{array}{c|c} A &amp; b \\ \end{array} \right)</m> does not have a pivot in the last column and represents an inconsistent linear system.</cell>
+                    <cell><m>\bigcirc</m></cell>
+                    <cell><m>\bigcirc</m></cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>d) <m>T(\vec{x}) = A\vec{x}</m> is a one-to-one linear transform, <m>A</m> is <m>m \times n</m>, and <m>A\vec{x} = \vec{b}</m> is inconsistent for some <m>\vec{b} \in \mathbb{R}^m</m>.</cell>
+                    <cell><m>\bigcirc</m></cell>
+                    <cell><m>\bigcirc</m></cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell>e) <m>T(\vec{x})</m> is a linear transform that maps vectors in <m>R^n</m> to <m>\mathbb{R}</m>, </cell>
+                    <cell><m>\bigcirc</m></cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+        </statement>
+    </exercise>
     </page>
 
 </worksheet>
