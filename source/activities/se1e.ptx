@@ -11,7 +11,7 @@
   </introduction>
 <!-- Page 1 -->
     <page>
-    <exercise workspace="2in">
+    <exercise>
         <statement>
         <p>
             (7 points) Indicate <term>true</term> if the statement is true, otherwise, indicate <term>false</term>.
@@ -26,7 +26,12 @@
                 <cell>false</cell>
             </row>
             <row>
-                <cell>a) If <m>\vec{c}_1</m> and <m>\vec{c}_2</m> are the standard vectors in <m>\mathbb{R}^2</m>, and <m>T(\vec{x})= A\vec{x}</m> is a matrix transform that satisfies <m>T(\vec{c}_1) = T(\vec{c}_2) = 1</m>, then <m>A = \begin{pmatrix} 1 &amp; 1 \\ \begin{pmatrix}</m>.</cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+            <row>
+                <cell><p>a) If <m>\vec{c}_1</m> and <m>\vec{c}_2</m> are the standard vectors in <m>\mathbb{R}^2</m>, and <m>T(\vec{x})= A\vec{x}</m> is a matrix transform that satisfies <m>T(\vec{c}_1) = T(\vec{c}_2) = 1</m>, then <m>A = \begin{pmatrix} 1 &amp; 1 \end{pmatrix}</m>.</p></cell>
                 <cell><m>\bigcirc</m></cell>
                 <cell><m>\bigcirc</m></cell>
             </row>
@@ -36,7 +41,7 @@
                 <cell></cell>
             </row>
             <row>
-                <cell>b) If <m> A</m> is <m>2 \times 3</m>, then the transformation <m>\vec{x} \to A\vec{x}</m> cannot be onto.</cell>
+                <cell><p>b) If <m> A</m> is <m>2 \times 3</m>, then the transformation <m>\vec{x} \to A\vec{x}</m> cannot be onto.</p></cell>
                 <cell><m>\bigcirc</m></cell>
                 <cell><m>\bigcirc</m></cell>
             </row>
@@ -46,7 +51,7 @@
                 <cell></cell>
             </row>
             <row>
-                <cell>c) If <m>\vec{x}_1</m> is a solution to the inhomogeneous system <m>A\vec{x} = \vec{b}</m>, then any vector in Span<m>\{\vec{x}_1}</m> is also a solution to <m>A\vec{x} = \vec{b}</m>.</cell>
+                <cell><p>c) If <m>\vec{x}_1</m> is a solution to the inhomogeneous system <m>A\vec{x} = \vec{b}</m>, then any vector in Span<m>\{\vec{x}_1\}</m> is also a solution to <m>A\vec{x} = \vec{b}</m>.</p></cell>
                 <cell><m>\bigcirc</m></cell>
                 <cell><m>\bigcirc</m></cell>
             </row>
@@ -56,7 +61,7 @@
                 <cell></cell>
             </row>
             <row>
-                <cell>d) If there are non-trivial solutions to the linear system <m>A\{x} = \vec{0}</m>, then the columns of <m>A</m> must be linearly independent.</cell>
+                <cell><p>d) If there are non-trivial solutions to the linear system <m>A\vec{x} = \vec{0}</m>, then the columns of <m>A</m> must be linearly independent.</p></cell>
                 <cell><m>\bigcirc</m></cell>
                 <cell><m>\bigcirc</m></cell>
             </row>
@@ -66,7 +71,7 @@
                 <cell></cell>
             </row>
             <row>
-                <cell>e) If the linear system <m>A\vec{x} = \vec{b}</m> is inconsistent, then <m>\vec{b}</m> cannot be in the span of the columns of <m>A</m>.</cell>
+                <cell><p>e) If the linear system <m>A\vec{x} = \vec{b}</m> is inconsistent, then <m>\vec{b}</m> cannot be in the span of the columns of <m>A</m>.</p></cell>
                 <cell><m>\bigcirc</m></cell>
                 <cell><m>\bigcirc</m></cell>
             </row>
@@ -76,7 +81,7 @@
                 <cell></cell>
             </row>
             <row>
-                <cell>f) If <m>\vec{x}</m> is a nontrivial solution of <m>A\vec{x} = \vec{0}</m>, then every entry of <m>\vec{x}</m> is nonzero.</cell>
+                <cell><p>f) If <m>\vec{x}</m> is a nontrivial solution of <m>A\vec{x} = \vec{0}</m>, then every entry of <m>\vec{x}</m> is nonzero.</p></cell>
                 <cell><m>\bigcirc</m></cell>
                 <cell><m>\bigcirc</m></cell>
             </row>
@@ -86,7 +91,7 @@
                 <cell></cell>
             </row>
             <row>
-                <cell>g) Suppose <m>A</m> and <m>E</m> are <m>n \times n</m> matrices. If <m>A</m> is row equivalent to <m>E</m>, and the first column of <m>A</m> is pivotal, then the first column of <m>E</m> is also pivotal.</cell>
+                <cell><p>g) Suppose <m>A</m> and <m>E</m> are <m>n \times n</m> matrices. If <m>A</m> is row equivalent to <m>E</m>, and the first column of <m>A</m> is pivotal, then the first column of <m>E</m> is also pivotal.</p></cell>
                 <cell><m>\bigcirc</m></cell>
                 <cell><m>\bigcirc</m></cell>
             </row>
@@ -96,9 +101,10 @@
                 <cell></cell>
             </row>
         </tabular>
+        <p><m></m></p><p><m></m></p><p><m></m></p><p><m></m></p>
         </statement>
     </exercise>
-    <exercise workspace="2in">
+    <exercise>
         <statement>
             <p>
                 (5 points) Indicate whether the situations are <term>possible</term> or <term>impossible</term>.
@@ -113,7 +119,12 @@
                     <cell>impossible</cell>
                 </row>
                 <row>
-                    <cell>a) <m>A</m> is a <m>5 \times </m> matrix that has 3<m>3</m> pivotal columns, and <m>A\vec{x} = \vec{b}</m> is a linear system with <m>2</m> free variables.</cell>
+                <cell></cell>
+                <cell></cell>
+                <cell></cell>
+            </row>
+                <row>
+                    <cell><p>a) <m>A</m> is a <m>5 \times 4</m> matrix that has <m>3</m> pivotal columns, and <m>A\vec{x} = \vec{b}</m> is a linear system with <m>2</m> free variables.</p></cell>
                     <cell><m>\bigcirc</m></cell>
                     <cell><m>\bigcirc</m></cell>
                 </row>
@@ -123,7 +134,7 @@
                     <cell></cell>
                 </row>
                 <row>
-                    <cell>b) <m>A</m> is a <m>3 \times 4</m> matrix whose columns are linearly independent and span <m>\mathbb{R}^3</m>.</cell>
+                    <cell><p>b) <m>A</m> is a <m>3 \times 4</m> matrix whose columns are linearly independent and span <m>\mathbb{R}^3</m>.</p></cell>
                     <cell><m>\bigcirc</m></cell>
                     <cell><m>\bigcirc</m></cell>
                 </row>
@@ -133,7 +144,7 @@
                     <cell></cell>
                 </row>
                 <row>
-                    <cell>c) The augmented matrix <m>\left( \begin{array}{c|c} A &amp; b \\ \end{array} \right)</m> does not have a pivot in the last column and represents an inconsistent linear system.</cell>
+                    <cell><p>c) The augmented matrix <m>\left( \begin{array}{c|c} A &amp; b \\ \end{array} \right)</m> does not have a pivot in the last column and represents an inconsistent linear system.</p></cell>
                     <cell><m>\bigcirc</m></cell>
                     <cell><m>\bigcirc</m></cell>
                 </row>
@@ -143,7 +154,7 @@
                     <cell></cell>
                 </row>
                 <row>
-                    <cell>d) <m>T(\vec{x}) = A\vec{x}</m> is a one-to-one linear transform, <m>A</m> is <m>m \times n</m>, and <m>A\vec{x} = \vec{b}</m> is inconsistent for some <m>\vec{b} \in \mathbb{R}^m</m>.</cell>
+                    <cell><p>d) <m>T(\vec{x}) = A\vec{x}</m> is a one-to-one linear transform, <m>A</m> is <m>m \times n</m>, and <m>A\vec{x} = \vec{b}</m> is inconsistent for some <m>\vec{b} \in \mathbb{R}^m</m>.</p></cell>
                     <cell><m>\bigcirc</m></cell>
                     <cell><m>\bigcirc</m></cell>
                 </row>
@@ -153,10 +164,11 @@
                     <cell></cell>
                 </row>
                 <row>
-                    <cell>e) <m>T(\vec{x})</m> is a linear transform that maps vectors in <m>R^n</m> to <m>\mathbb{R}</m>, <m>\vec{0}</m> is the zero vector with exactly<m>n</m> entries, and <m>T(\vec{0}) \neq \vec{0}</m>.</cell>
+                    <cell><p>e) <m>T(\vec{x})</m> is a linear transform that maps vectors in <m>\mathbb{R}^n</m> to <m>\mathbb{R}^n</m>, <m>\vec{0}</m> is the zero vector with exactly <m>n</m> entries, and <m>T(\vec{0}) \neq \vec{0}</m>.</p></cell>
+                    <cell><m>\bigcirc</m></cell>
                     <cell><m>\bigcirc</m></cell>
                 </row>
-                <row>
+                <row bottom="minor">
                     <cell></cell>
                     <cell></cell>
                     <cell></cell>
@@ -165,5 +177,79 @@
         </statement>
     </exercise>
     </page>
+<!-- Page 2 -->
+    <page>
+        <exercise workspace="0.05in">
+            <introduction>
+                <p>
+                    (7 points) Fill in the blanks. You do not need to justify your reasoning.
+                </p>
+            </introduction>
+            <task>
+                    <p>
+                        If <m>A</m> is <m>2 \times 2</m> and <m>T_A (\vec{x}) = A\vec{x}</m> is a linear transform that first rotates points in <m>\mathbb{R}^2</m> clockwise about the origin by <m>3\pi/2</m> radians and then reflects them through the line <m>x_1 = x_2</m>, then <m>A = \begin{pmatrix} a_1 &amp; a_2 \\ a_3 &amp; a_4 \end{pmatrix}</m> where <m>a_1 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>, <m>a_2 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>, <m>a_3 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>, and <m>a_4 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>.
+                    </p>
+            </task>
+            <task>
+                    <p>
+                        Matrix <m>A</m> is <m>2 \times 2</m>, is in RREF, <m>\vec{x} = \begin{pmatrix} 1 \\ 0 \end{pmatrix}</m> is a solution to <m>A\vec{x} = \vec{0}</m>, and every entry of <m>A</m> is either <m>1</m> or <m>0</m>. How many different matrices can you construct that meet all of these criteria? <m>\fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>
+                    </p>
+            </task>
+            <task> 
+                    <p>
+                        <m>T(\vec{x})</m> is a linear transform <m>T : \mathbb{R}^2 \to \mathbb{R}^2</m>. If <m>T</m> maps <m>\vec{p} \in \mathbb{R}^2</m> into <m>\begin{pmatrix} 3 \\ 4  \end{pmatrix}</m>, and <m>T</m> maps <m>q \in \mathbb{R}^2</m> into <m>\begin{pmatrix} -2 \\ 1 \end{pmatrix}</m> then the image under <m>T</m> of <m>2\vec{p}+ 3\vec{q}</m> is <m>\begin{pmatrix} c_1 \\ c_2 \end{pmatrix}</m>, where <m>c_1 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>, <m>c_2 = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>.
+                    </p>
+            </task>
+            <task>
+                <p>
+                    Suppose <m>A</m> is <m>3 \times 7</m>, the linear system <m>A\vec{x} = \vec{b}</m> is consistent, and the parametric vector form of the solution set is <m>\vec{x} = x_1\vec{v}_1 + x_5\vec{v}_2 + x_7\vec{v}_3</m>. Then each <m>\vec{v}_1</m> has <m>\fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m> entries, and <m>\vec{b}</m> has <m>\fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m> entries.
+                </p>
+            </task>
+            <task>
+                    <p>
+                        Vector <m>b = \begin{pmatrix} 3 \\ 1 \\ k \end{pmatrix}</m> is in the plane spanned by <m>x = \begin{pmatrix} 1 \\ 0 \\ 4 \end{pmatrix}</m> and <m>y = \begin{pmatrix} 0 \\ 1 \\ 1 \end{pmatrix}</m> when <m>k = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>.
+                    </p>
+            </task>
+            <task> 
+                <p> 
+                    The linear system whose augmented matrix is <m>\left( \begin{array}{cc|c} 1 &amp; 2 &amp; 1 \\ 3 &amp; k &amp; 1 \end{array} \right)</m> is inconsistent when <m>k = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>.
+                </p>
+            </task>
+            <task>
+                <p>
+                    Suppose the entries of <m>n \times n</m> matrix <m>A</m> are <m>a_{ij}</m>, and <m>n \gt 2</m>. Suppose also that <m>a_{ij} = i</m> when <m>i + j</m> is even, and <m>a_{ij} = 0</m> when <m>i + j</m> is odd. So for example the entry in the second column and first row is <m>a_{12}</m>. Then <m>a_{32} = \fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>. How many pivot columns would <m>A</m> have? <m>\fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>
+                </p>
+            </task>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    (2 points) Suppose <m>A = \begin{pmatrix}2 &amp; -2 \\ -1 &amp; 1 \end{pmatrix}</m>, <m>\vec{b} = \begin{pmatrix} -1 \\ 1 \end{pmatrix}</m>. In the grids below, sketch a) the span of the columns of <m>A</m> and b) the solution set of <m>A\vec{x} = \vec{b}</m>. You do not need to show your work.
+                </p>
+                <sidebyside widths="8% 40% 8% 40%">  
+          <p> (a) </p>
+          <image width="100%">
+            <prefigure label="se13-4b" xmlns="https://prefigure.org">
+            <diagram dimensions="(300,300)" margins="5">
+            <coordinates bbox="(-4,-4,4,4)">
+              <grid-axes arrows="1" xlabel="x_1" ylabel="x_2"/>    
+            </coordinates>
+            </diagram>
+            </prefigure>
+          </image>
 
+          <p> (b)</p>
+          <image width="100%">
+            <prefigure label="pse13-4b" xmlns="https://prefigure.org">
+            <diagram dimensions="(300,300)" margins="5">
+            <coordinates bbox="(-4,-4,4,4)">
+              <grid-axes arrows="1" xlabel="x_1" ylabel="x_2"/>    
+            </coordinates>
+            </diagram>
+            </prefigure>
+          </image>
+          </sidebyside>
+            </statement>
+        </exercise>
+    </page>
 </worksheet>
