@@ -199,6 +199,69 @@ var ptx_lunr_docs = [
   "body": "  (2 points) Please show your work for this question.  For what values of , if any, are the vectors linearly dependent? Please show your work.    "
 },
 {
+  "id": "se1e",
+  "level": "1",
+  "url": "se1e.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Linear Algebra Sample Exam 1E",
+  "body": " Linear Algebra Sample Exam 1E    Work done on scratch paper will not be graded. You don't need to show your work on pages 1 and 2.        (7 points) Indicate true if the statement is true, otherwise, indicate false .        true  false         a) If and are the standard vectors in , and is a matrix transform that satisfies , then .           b) If is , then the transformation cannot be onto.           c) If is a solution to the inhomogeneous system , then any vector in Span is also a solution to .           d) If there are non-trivial solutions to the linear system , then the columns of must be linearly independent.           e) If the linear system is inconsistent, then cannot be in the span of the columns of .           f) If is a nontrivial solution of , then every entry of is nonzero.           g) Suppose and are matrices. If is row equivalent to , and the first column of is pivotal, then the first column of is also pivotal.                (5 points) Indicate whether the situations are possible or impossible .        possible  impossible         a) is a matrix that has pivotal columns, and is a linear system with free variables.           b) is a matrix whose columns are linearly independent and span .           c) The augmented matrix does not have a pivot in the last column and represents an inconsistent linear system.           d) is a one-to-one linear transform, is , and is inconsistent for some .           e) is a linear transform that maps vectors in to , is the zero vector with exactly entries, and .                  (7 points) Fill in the blanks. You do not need to justify your reasoning.    If is and is a linear transform that first rotates points in clockwise about the origin by radians and then reflects them through the line , then where , , , and .    Matrix is , is in RREF, is a solution to , and every entry of is either or . How many different matrices can you construct that meet all of these criteria?      is a linear transform . If maps into , and maps into then the image under of is , where , .    Suppose is , the linear system is consistent, and the parametric vector form of the solution set is . Then each has entries, and has entries.    Vector is in the plane spanned by and when .    The linear system whose augmented matrix is is inconsistent when .    Suppose the entries of matrix are , and . Suppose also that when is even, and when is odd. So for example the entry in the second column and first row is . Then . How many pivot columns would have?       (2 points) Suppose , . In the grids below, sketch a) the span of the columns of and b) the solution set of . You do not need to show your work.   (a)           (b)                   (2 points) Write down the solutions to in parametric vector form. You do not need to show your work.   ,       (2 points) Please show your work for this question.  Construct a linear system and use row reductions to determine , , so that the function passes through the points , , . Please show your work.     "
+},
+{
+  "id": "se1e-3-1",
+  "level": "2",
+  "url": "se1e.html#se1e-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  (7 points) Indicate true if the statement is true, otherwise, indicate false .        true  false         a) If and are the standard vectors in , and is a matrix transform that satisfies , then .           b) If is , then the transformation cannot be onto.           c) If is a solution to the inhomogeneous system , then any vector in Span is also a solution to .           d) If there are non-trivial solutions to the linear system , then the columns of must be linearly independent.           e) If the linear system is inconsistent, then cannot be in the span of the columns of .           f) If is a nontrivial solution of , then every entry of is nonzero.           g) Suppose and are matrices. If is row equivalent to , and the first column of is pivotal, then the first column of is also pivotal.             "
+},
+{
+  "id": "se1e-3-2",
+  "level": "2",
+  "url": "se1e.html#se1e-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  (5 points) Indicate whether the situations are possible or impossible .        possible  impossible         a) is a matrix that has pivotal columns, and is a linear system with free variables.           b) is a matrix whose columns are linearly independent and span .           c) The augmented matrix does not have a pivot in the last column and represents an inconsistent linear system.           d) is a one-to-one linear transform, is , and is inconsistent for some .           e) is a linear transform that maps vectors in to , is the zero vector with exactly entries, and .            "
+},
+{
+  "id": "se1e-4-1",
+  "level": "2",
+  "url": "se1e.html#se1e-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  (7 points) Fill in the blanks. You do not need to justify your reasoning.    If is and is a linear transform that first rotates points in clockwise about the origin by radians and then reflects them through the line , then where , , , and .    Matrix is , is in RREF, is a solution to , and every entry of is either or . How many different matrices can you construct that meet all of these criteria?      is a linear transform . If maps into , and maps into then the image under of is , where , .    Suppose is , the linear system is consistent, and the parametric vector form of the solution set is . Then each has entries, and has entries.    Vector is in the plane spanned by and when .    The linear system whose augmented matrix is is inconsistent when .    Suppose the entries of matrix are , and . Suppose also that when is even, and when is odd. So for example the entry in the second column and first row is . Then . How many pivot columns would have?    "
+},
+{
+  "id": "se1e-4-2",
+  "level": "2",
+  "url": "se1e.html#se1e-4-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  (2 points) Suppose , . In the grids below, sketch a) the span of the columns of and b) the solution set of . You do not need to show your work.   (a)           (b)             "
+},
+{
+  "id": "se1e-5-1",
+  "level": "2",
+  "url": "se1e.html#se1e-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  (2 points) Write down the solutions to in parametric vector form. You do not need to show your work.   ,    "
+},
+{
+  "id": "se1e-5-2",
+  "level": "2",
+  "url": "se1e.html#se1e-5-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  (2 points) Please show your work for this question.  Construct a linear system and use row reductions to determine , , so that the function passes through the points , , . Please show your work.   "
+},
+{
   "id": "handouts",
   "level": "1",
   "url": "handouts.html",
