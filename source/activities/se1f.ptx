@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Transcribed by Divyash Maheshwari -->
+<worksheet xml:id="se1f">
+  <title>Linear Algebra Sample Exam 1F</title>
+  <introduction>
+    <p>
+      <em>Work done on scratch paper will not be graded. You don't need to show your work on pages 1 and 2.</em>
+    </p>
+  </introduction>
+<!-- Page 1 -->
+    <page>
+        <exercise>
+            <statement>
+            <p>
+                (5 points) Indicate whether the situations are <term>possible</term> or <term>impossible</term>.
+            </p>
+            <tabular>
+                <col width="76%" />
+                <col width="12%" />
+                <col width="12%" />
+                <row bottom="minor">
+                    <cell></cell>
+                    <cell>possible</cell>
+                    <cell>impossible</cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell><p>a) <m>A</m> is a <m>3 \times 2</m> matrix with linearly independent columns, and <m>\vec{b} \in \mathbb{R}^3</m> is not in the span of the columns of <m>A</m>.</p></cell>
+                    <cell><m>\bigcirc</m></cell>
+                    <cell><m>\bigcirc</m></cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell><p>b) A set of vectors <m>\{ \vec{v}_i \}</m> for <m>i = 1, 2, \ldots , n</m> are linearly dependent. The only way that <m>\displaystyle\sum_{i=1}^{n} c_i \vec{v}_i = \vec{0}</m> is when <m>c_i = 0</m> for <m>i = 1, 2, 3, \ldots , n</m>.</p></cell>
+                    <cell><m>\bigcirc</m></cell>
+                    <cell><m>\bigcirc</m></cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell><p>c) Let <m>A</m> be a <m>6 \times 10</m> matrix. The only solution to <m>A\vec{x} = \vec{0}</m> is <m>\vec{x} = \vec{0}</m>.</p></cell>
+                    <cell><m>\bigcirc</m></cell>
+                    <cell><m>\bigcirc</m></cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell><p>d) <m>T(\vec{x}) = A\vec{x}</m> is a one-to-one linear transform, <m>A</m> is <m>5 \times 3</m>, and <m>A\vec{x} = \vec{b}</m> does not have a solution for some <m>\vec{b} \in \mathbb{R}^5</m>.</p></cell>
+                    <cell><m>\bigcirc</m></cell>
+                    <cell><m>\bigcirc</m></cell>
+                </row>
+                <row>
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+                <row>
+                    <cell><p>e) <m>T(\vec{x})</m> is a matrix transform that maps vectors in <m>\mathbb{R}^n</m> to <m>\mathbb{R}^m</m>, <m>T(\vec{x}) = A\vec{x} = \vec{b}</m>. Matrix <m>A</m> is <m>m \times n</m>, and <m>\vec{b}</m> is a vector in <m>\mathbb{R}^m</m></p></cell>
+                    <cell><m>\bigcirc</m></cell>
+                    <cell><m>\bigcirc</m></cell>
+                </row>
+                <row bottom="minor">
+                    <cell></cell>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+            </tabular>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    (7 points) Indicate <term>true</term> if the statement is true, otherwise, indicate <term>false</term>.
+                </p>
+                <tabular>
+                    <col width="88%" />
+                    <col width="6%" />
+                    <col width="6%" />
+                    <row bottom="minor">
+                        <cell></cell>
+                        <cell>true</cell>
+                        <cell>false</cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><p>a) The transform <m>T( x_1 , x_2 ) = ( x_1 + 1, x_2 )</m> is a linear transform.</p></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </statement>
+        </exercise>
+    </page>
+</worksheet>

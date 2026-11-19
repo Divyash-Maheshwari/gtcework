@@ -53,6 +53,7 @@
       <xi:include href="./activities/ws24.ptx"/>
       <xi:include href="./activities/se1b.ptx"/>
       <xi:include href="./activities/se1e.ptx"/>
+      <xi:include href="./activities/se1f.ptx"/>
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
