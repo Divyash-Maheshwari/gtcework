@@ -10,7 +10,7 @@
   </introduction>
 <!-- Page 1 -->
     <page>
-        <exercise>
+        <exercise workspace="1in">
             <statement>
             <p>
                 (5 points) Indicate whether the situations are <term>possible</term> or <term>impossible</term>.
@@ -70,7 +70,7 @@
                     <cell></cell>
                 </row>
                 <row>
-                    <cell><p>e) <m>T(\vec{x})</m> is a matrix transform that maps vectors in <m>\mathbb{R}^n</m> to <m>\mathbb{R}^m</m>, <m>T(\vec{x}) = A\vec{x} = \vec{b}</m>. Matrix <m>A</m> is <m>m \times n</m>, and <m>\vec{b}</m> is a vector in <m>\mathbb{R}^m</m></p></cell>
+                    <cell><p>e) <m>T(\vec{x})</m> is a matrix transform that maps vectors in <m>\mathbb{R}^n</m> to <m>\mathbb{R}^m</m>, <m>T(\vec{x}) = A\vec{x} = \vec{b}</m>. Matrix <m>A</m> is <m>m \times n</m>, and <m>\vec{b}</m> is a vector in <m>\mathbb{R}^m</m>.</p></cell>
                     <cell><m>\bigcirc</m></cell>
                     <cell><m>\bigcirc</m></cell>
                 </row>
@@ -103,6 +103,71 @@
                     </row>
                     <row>
                         <cell><p>a) The transform <m>T( x_1 , x_2 ) = ( x_1 + 1, x_2 )</m> is a linear transform.</p></cell>
+                        <cell><m>\bigcirc</m></cell>
+                        <cell><m>\bigcirc</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><p>b) If <m>A</m> is the standard matrix for a linear transform that is one-to-one and onto, then <m>A</m> must be square.</p></cell>
+                        <cell><m>\bigcirc</m></cell>
+                        <cell><m>\bigcirc</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><p>c) If <m>\vec{x_1}</m> and <m>\vec{x_2}</m> solve the inhomogeneous system <m>A\vec{x} = \vec{b}</m>, <m>\vec{x_1} - \vec{x_2}</m> solves the homogeneous system <m>A\vec{x} = \vec{0}</m>.</p></cell>
+                        <cell><m>\bigcirc</m></cell>
+                        <cell><m>\bigcirc</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><p>d) If a set of vectors <m>\{ \vec{v_1} , \vec{v_2} , \vec{v_3} \}</m> is linearly independent, then any subset such as <m>\{ \vec{v_1} , \vec{v_2}</m> must also be linearly independent.</p></cell>
+                        <cell><m>\bigcirc</m></cell>
+                        <cell><m>\bigcirc</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><p>e) If vectors <m>\vec{x}</m>, <m>\vec{y}</m>, and <m>\vec{z}</m> are linearly dependent vectors in <m>\mathbb{R}^3</m>, then their span is a plane in <m>\mathbb{R}^3</m>.</p></cell>
+                        <cell><m>\bigcirc</m></cell>
+                        <cell><m>\bigcirc</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><p>f) If a consistent system has at least one free variable, then it has infinitely many solutions.</p></cell>
+                        <cell><m>\bigcirc</m></cell>
+                        <cell><m>\bigcirc</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><p>g) A matrix with <m>3</m> pivotal rows also has <m>3</m> pivotal columns.</p></cell>
+                        <cell><m>\bigcirc</m></cell>
+                        <cell><m>\bigcirc</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell></cell>
                         <cell></cell>
                         <cell></cell>
                     </row>
@@ -110,4 +175,5 @@
             </statement>
         </exercise>
     </page>
+
 </worksheet>
