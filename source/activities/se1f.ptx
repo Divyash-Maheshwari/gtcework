@@ -175,5 +175,95 @@
             </statement>
         </exercise>
     </page>
+<!-- Page 2 -->
+    <page>
+        <exercise workspace="0.25in">
+            <statement>
+                <p>
+                    (2 points) Suppose <m>A = \begin{pmatrix} -1 &amp; 2 \\ 2 &amp; -4 \end{pmatrix}</m>, <m>B</m> is that standard matrix for a transform the reflects vectors in <m>\mathbb{R}^2</m> over the line <m>x_1 +x_2 = 0</m>, and <m>C</m> is the standard matrix for the transform <m>T_C : \vec{x} \mapsto C\vec{x}</m>, where <m>C = BA</m>. In the grids below, sketch a) the range of the transform <m>\vec{x} \mapsto A\vec{x}</m>, and b) the range of the transform <m>\vec{x} \mapsto C\vec{x}</m>. You do not need to show your work.
+                </p>
+                <sidebyside widths="4% 32% 4% 32%">  
+          <p> (a) </p>
+          <image width="100%">
+            <prefigure label="se1f-3a" xmlns="https://prefigure.org">
+            <diagram dimensions="(200,200)" margins="5">
+            <coordinates bbox="(-4,-4,4,4)">
+              <grid-axes arrows="1" xlabel="x_1" ylabel="x_2"/>    
+            </coordinates>
+            </diagram>
+            </prefigure>
+          </image>
 
+          <p> (b)</p>
+          <image width="100%">
+            <prefigure label="se1f-3b" xmlns="https://prefigure.org">
+            <diagram dimensions="(200,200)" margins="5">
+            <coordinates bbox="(-4,-4,4,4)">
+              <grid-axes arrows="1" xlabel="x_1" ylabel="x_2"/>    
+            </coordinates>
+            </diagram>
+            </prefigure>
+          </image>
+          </sidebyside>
+            </statement>
+        </exercise>
+        <exercise>
+            <introduction>
+                <p>
+                    (7 points) Fill in the blanks. You do not need to justify your reasoning.
+                </p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        If <m>A</m> is <m>2 \times 2</m> and <m>T_A (\vec{x}) = A\vec{x}</m> is a linear transform that first reflects points in <m>\mathbb{R}^2</m> through the line <m>x_1 + x_2 = 0</m>, and then projects them onto the <m>x_1</m>-axis, then <m>A = \begin{pmatrix} a_1 &amp; a_2 \\ a_3 &amp; a_4 \end{pmatrix}</m> where <m>a_1 = \fbox{\phantom{\rule{2em}{0pt}}\rule{0pt}{1.4ex}}</m>, <m>a_2 = \fbox{\phantom{\rule{2em}{0pt}}\rule{0pt}{1.4ex}}</m>, <m>a_3 = \fbox{\phantom{\rule{2em}{0pt}}\rule{0pt}{1.4ex}}</m> and <m>a_4 = \fbox{\phantom{\rule{2em}{0pt}}\rule{0pt}{1.4ex}}</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>A</m> is a <m>3 \times 2</m> non-zero matrix that is in RREF, <m>\vec{x} = \begin{pmatrix} 1 \\ 0 \end{pmatrix}</m> is a solution to <m>A\vec{x} - \vec{0}</m>, and every entry of <m>A</m> is either <m>1</m> or <m>0</m>. How many different matrices can you construct that meet all of these criteria, if any? If there are no such matrices you can write NONE. <m>\fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Suppose <m>A = \begin{pmatrix} 3 &amp; 0 \\3 &amp; 1 \end{pmatrix}</m> and the image of <m>x = \begin{pmatrix}c_1 \\ c_2 \end{pmatrix}</m> under the transform <m>T(x) = Ax</m> is <m>b = \begin{pmatrix} 6 \\ 7 \end{pmatrix}</m>, then <m>c_1 = \fbox{\phantom{\rule{2em}{0pt}}\rule{0pt}{1.4ex}}</m> and <m>c_2 = \fbox{\phantom{\rule{2em}{0pt}}\rule{0pt}{1.4ex}}</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        If <m>A = \begin{pmatrix} k &amp; k \\ 3 &amp; 3 \end{pmatrix}</m>, then <m>\vec{v} = \begin{pmatrix} 6 \\ 2 \end{pmatrix}</m> is in the span of the columns of <m>A</m> when <m>k = \fbox{\phantom{\rule{2em}{1.4ex}}}</m>. Also, <m>\vec{w} = \begin{pmatrix} 4 \\ h \end{pmatrix}</m> is a solution to <m>A\vec{w} = \vec{0}</m> when <m>h = \fbox{\phantom{\rule{4em}{1.4ex}}}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Suppose <m>\vec{v_1} = \begin{pmatrix} 5 \\ 2 \\ 4 \end{pmatrix}</m>, <m>\vec{v_2} = \begin{pmatrix} 1 \\ 1 \\ 0 \end{pmatrix}</m>, and <m>\vec{y} = \begin{pmatrix} y_1 \\ y_2 \\ y_3 \end{pmatrix}</m>. If <m>A</m> has <m>2</m> pivots, then the transform <m>T(\vec{x}) = A\vec{x}</m> satisfies <m>T(\vec{v_1}) = 3T(\vec{v_2}) \neq \vec{0}</m>, <m>y_3 = 8</m>, and <m>\vec{y}</m> satisfies <m>A\vec{y} = \vec{0}</m>, then <m>y_1 = \fbox{\phantom{\rule{2em}{1.4ex}}}</m>, <m>y_2 = \fbox{\phantom{\rule{2em}{1.4ex}}}</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        The linear system whose augmented matrix is <m>\left( \begin{array}{cc|c} 2 &amp; 1 &amp; 1 \\ 4 &amp; k &amp; 1 \end{array} \right)</m> is inconsistent when <m>k = \fbox{\phantom{\rule{2em}{1.4ex}}}</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Consider the linear system <m>3x + hy = 7</m> and <m>9x + 15y = k</m>. Thesystem will have no solutions when <m>k = 0</m>and <m>h = \fbox{\phantom{\rule{2em}{1.4ex}}}</m>. But the system will have an infinite number of solutions when <m>h = 5</m> and <m>k = \fbox{\phantom{\rule{2em}{1.4ex}}}</m>.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+    </page>
+
+<!-- Page 3 -->
 </worksheet>
