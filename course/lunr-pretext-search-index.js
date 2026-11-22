@@ -64,40 +64,49 @@ var ptx_lunr_docs = [
   "body": " 24 Quadratic Forms (LN 2.2, 2.3)    Poll Question   True or false: for all values of and .   Hint: Plot it in Desmos 3D! And: how does this exercise relate to symmetric matrices?      24.1 Expressing Quadratic Forms in Terms of Symmetric Matrices   Definition  A quadratic form is a function , given by   Matrix is and symmetric, and is a variable vector in .  Example: express in the form .      24.2 The Principle Axes Theorem   Theorem  If is a symmetric matrix then there exists an orthogonal change of variable that transforms to with no cross-product terms.  Proof in the lecture videos\/textbook.   Consider: where .    Make a change of variable that transforms the quadratic form into another quadratic form that has no cross-product terms.  For what values of will satisfy for any and ?    Tip: it may help to plot the surfaces in Desmos 3D to see what the surface looks like as you change the value of .      24.3 Classifying Quadratic Surfaces   Our goal: solve optimization problems with quadratic functions.  Take for example the surface:   If we set to be constant, , we obtain the equation of a circle whose radius is .      The surface above has a unique minimum at the origin. What about other surfaces?  Definition  A quadratic form is  positive definite if for all  negative definite if for all  positive semidefinite if for all  negative semidefinite if for all  indefinite if takes on positive and negative values for    Theorem  If is a matrix with eigenvalues , then is  positive definite when all eigenvalues are positive  negative definite when all eigenvalues are negative  indefinite when at least one eigenvalue is negative and at least one eigenvalue is positive        24.3.1 Example   Assume . Construct the matrix of the quadratic form, and classify the quadratic form.        "
 },
 {
-  "id": "ws24-3-1-5",
+  "id": "ws24-3-1-4",
   "level": "2",
-  "url": "ws24.html#ws24-3-1-5",
+  "url": "ws24.html#ws24-3-1-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Definition "
 },
 {
-  "id": "ws24-3-1-6",
+  "id": "ws24-3-1-5",
   "level": "2",
-  "url": "ws24.html#ws24-3-1-6",
+  "url": "ws24.html#ws24-3-1-5",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "quadratic form "
 },
 {
-  "id": "ws24-4-1-5",
+  "id": "ws24-4-1-4",
   "level": "2",
-  "url": "ws24.html#ws24-4-1-5",
+  "url": "ws24.html#ws24-4-1-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Theorem "
 },
 {
-  "id": "ws24-5-1-5",
+  "id": "ws24-5-1-4",
   "level": "2",
-  "url": "ws24.html#ws24-5-1-5",
+  "url": "ws24.html#ws24-5-1-4",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "solve optimization problems with quadratic functions. "
+},
+{
+  "id": "ws24-5-1-11",
+  "level": "2",
+  "url": "ws24.html#ws24-5-1-11",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Definition "
 },
 {
   "id": "ws24-5-1-12",
@@ -106,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Definition "
+  "body": "positive definite negative definite positive semidefinite negative semidefinite indefinite "
 },
 {
   "id": "ws24-5-1-13",
@@ -115,21 +124,12 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "positive definite negative definite positive semidefinite negative semidefinite indefinite "
+  "body": "Theorem "
 },
 {
   "id": "ws24-5-1-14",
   "level": "2",
   "url": "ws24.html#ws24-5-1-14",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Theorem "
-},
-{
-  "id": "ws24-5-1-15",
-  "level": "2",
-  "url": "ws24.html#ws24-5-1-15",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -142,7 +142,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Linear Algebra Sample Exam 1B",
-  "body": " Linear Algebra Sample Exam 1B    Work done on scratch paper will not be graded. You don't need to show your work on pages 1 and 2.         (5 points) Indicate whether the situations are possible or impossible .        possible  impossible         a) Vector is in the span of the columns of matrix and the linear system is inconsistent, where .           b) is a collection of three vectors in . No two vectors in are scalar multiples of each other, but the vectors in are linearly dependent.           c) Matrices and are row equivalent, , but .           d) is an onto linear transform and is .           e) is a one-to-one linear transform, is , is a vector that is in the co-domain of the transform but not the range of the transform.                  (7 points) Indicate true if the statement is true, otherwise, indicate false .        true  false         a) The transform is a linear transform.           b) If is , then the transformation cannot be one-to-one.           c) If is , is a vector in , and is consistent, then has pivots.           d) If an matrix has linearly dependent columns and , then the homogeneous equation must have non-trivial solutions.           e) If , and is not a linear combination of the columns of an matrix , then the linear system must be inconsistent.           f) If a matrix has fewer rows than columns, then the homogeneous system must have infinitely many solutions.           g) If matrices and are row equivalent, then they have the same RREF.                  (2 points) Suppose , . In the grids below, sketch a) the range of the transform , and b) the solution set of . You do not need to show your work.   (a)           (b)                (7 points) Fill in the blanks. You do not need to justify your reasoning.  If is and is a linear transform that first rotates points in counter-clockwise about the origin by radians and then reflects them through the line , then where , , , and .  Suppose matrix is , has exactly one pivot, is in RREF, and every entry of is either or . How many matrices can you construct that meet all these criteria?  Suppose is a linear transform such that . If , and is , then and .  Suppose is , the linear system is consistent, and the parametric vector form of the solution set is . Then has entries, and has entries.  Suppose , , and . If has pivots, then transform satisfies , , and satisfies , then , .  The linear system whose augmented matrix is is inconsistent when .  Consider the linear system and . The system will have no solutions when and . But the system will have an infinite number of solutions when and .        (2 points) Suppose are non-zero vectors in , and that and span a plane. Then is equal to which of the sets below? You do not need to show your work.        equal to  not equal to         a)           b)           c)           d)               (2 points) Please show your work for this question.  For what values of , if any, are the vectors linearly dependent? Please show your work.      "
+  "body": " Linear Algebra Sample Exam 1B    Work done on scratch paper will not be graded. You don't need to show your work on pages 1 and 2.         (5 points) Indicate whether the situations are possible or impossible .        possible  impossible         a) Vector is in the span of the columns of matrix and the linear system is inconsistent, where .           b) is a collection of three vectors in . No two vectors in are scalar multiples of each other, but the vectors in are linearly dependent.           c) Matrices and are row equivalent, , but .           d) is an onto linear transform and is .           e) is a one-to-one linear transform, is , is a vector that is in the co-domain of the transform but not the range of the transform.                  (7 points) Indicate true if the statement is true, otherwise, indicate false .        true  false         a) The transform is a linear transform.           b) If is , then the transformation cannot be one-to-one.           c) If is , is a vector in , and is consistent, then has pivots.           d) If an matrix has linearly dependent columns and , then the homogeneous equation must have non-trivial solutions.           e) If , and is not a linear combination of the columns of an matrix , then the linear system must be inconsistent.           f) If a matrix has fewer rows than columns, then the homogeneous system must have infinitely many solutions.           g) If matrices and are row equivalent, then they have the same RREF.                  (2 points) Suppose , . In the grids below, sketch a) the range of the transform , and b) the solution set of . You do not need to show your work.   (a)           (b)                (7 points) Fill in the blanks. You do not need to justify your reasoning.  If is and is a linear transform that first rotates points in counter-clockwise about the origin by radians and then reflects them through the line , then where , , , and .  Suppose matrix is , has exactly one pivot, is in RREF, and every entry of is either or . How many matrices can you construct that meet all these criteria?  Suppose is a linear transform such that . If , and is , then and .  Suppose is , the linear system is consistent, and the parametric vector form of the solution set is . Then has entries, and has entries.  Suppose , , and . If has pivots, then transform satisfies , , and satisfies , then , .  The linear system whose augmented matrix is is inconsistent when .  Consider the linear system and . The system will have no solutions when and . But the system will have an infinite number of solutions when and .        (2 points) Suppose are non-zero vectors in , and that and span a plane. Then is equal to which of the sets below? You do not need to show your work.        equal to  not equal to         a)           b)           c)           d)               (2 points) Please show your work for this question.  For what values of , if any, are the vectors linearly dependent? Please show your work.        "
 },
 {
   "id": "se1b-3-1",
@@ -196,7 +196,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "6",
   "title": "",
-  "body": "  (2 points) Please show your work for this question.  For what values of , if any, are the vectors linearly dependent? Please show your work.    "
+  "body": "  (2 points) Please show your work for this question.  For what values of , if any, are the vectors linearly dependent? Please show your work.      "
 },
 {
   "id": "se1e",
@@ -205,7 +205,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Linear Algebra Sample Exam 1E",
-  "body": " Linear Algebra Sample Exam 1E    Work done on scratch paper will not be graded. You don't need to show your work on pages 1 and 2.        (7 points) Indicate true if the statement is true, otherwise, indicate false .        true  false         a) If and are the standard vectors in , and is a matrix transform that satisfies , then .           b) If is , then the transformation cannot be onto.           c) If is a solution to the inhomogeneous system , then any vector in Span is also a solution to .           d) If there are non-trivial solutions to the linear system , then the columns of must be linearly independent.           e) If the linear system is inconsistent, then cannot be in the span of the columns of .           f) If is a nontrivial solution of , then every entry of is nonzero.           g) Suppose and are matrices. If is row equivalent to , and the first column of is pivotal, then the first column of is also pivotal.                (5 points) Indicate whether the situations are possible or impossible .        possible  impossible         a) is a matrix that has pivotal columns, and is a linear system with free variables.           b) is a matrix whose columns are linearly independent and span .           c) The augmented matrix does not have a pivot in the last column and represents an inconsistent linear system.           d) is a one-to-one linear transform, is , and is inconsistent for some .           e) is a linear transform that maps vectors in to , is the zero vector with exactly entries, and .                  (7 points) Fill in the blanks. You do not need to justify your reasoning.    If is and is a linear transform that first rotates points in clockwise about the origin by radians and then reflects them through the line , then where , , , and .    Matrix is , is in RREF, is a solution to , and every entry of is either or . How many different matrices can you construct that meet all of these criteria?      is a linear transform . If maps into , and maps into then the image under of is , where , .    Suppose is , the linear system is consistent, and the parametric vector form of the solution set is . Then each has entries, and has entries.    Vector is in the plane spanned by and when .    The linear system whose augmented matrix is is inconsistent when .    Suppose the entries of matrix are , and . Suppose also that when is even, and when is odd. So for example the entry in the second column and first row is . Then . How many pivot columns would have?       (2 points) Suppose , . In the grids below, sketch a) the span of the columns of and b) the solution set of . You do not need to show your work.   (a)           (b)                   (2 points) Write down the solutions to in parametric vector form. You do not need to show your work.   ,       (2 points) Please show your work for this question.  Construct a linear system and use row reductions to determine , , so that the function passes through the points , , . Please show your work.     "
+  "body": "  Linear Algebra Sample Exam 1E    Work done on scratch paper will not be graded. You don't need to show your work on pages 1 and 2.        (7 points) Indicate true if the statement is true, otherwise, indicate false .        true  false         a) If and are the standard vectors in , and is a matrix transform that satisfies , then .           b) If is , then the transformation cannot be onto.           c) If is a solution to the inhomogeneous system , then any vector in Span is also a solution to .           d) If there are non-trivial solutions to the linear system , then the columns of must be linearly independent.           e) If the linear system is inconsistent, then cannot be in the span of the columns of .           f) If is a nontrivial solution of , then every entry of is nonzero.           g) Suppose and are matrices. If is row equivalent to , and the first column of is pivotal, then the first column of is also pivotal.                (5 points) Indicate whether the situations are possible or impossible .        possible  impossible         a) is a matrix that has pivotal columns, and is a linear system with free variables.           b) is a matrix whose columns are linearly independent and span .           c) The augmented matrix does not have a pivot in the last column and represents an inconsistent linear system.           d) is a one-to-one linear transform, is , and is inconsistent for some .           e) is a linear transform that maps vectors in to , is the zero vector with exactly entries, and .                  (7 points) Fill in the blanks. You do not need to justify your reasoning.    If is and is a linear transform that first rotates points in clockwise about the origin by radians and then reflects them through the line , then where , , , and .    Matrix is , is in RREF, is a solution to , and every entry of is either or . How many different matrices can you construct that meet all of these criteria?      is a linear transform . If maps into , and maps into then the image under of is , where , .    Suppose is , the linear system is consistent, and the parametric vector form of the solution set is . Then each has entries, and has entries.    Vector is in the plane spanned by and when .    The linear system whose augmented matrix is is inconsistent when .    Suppose the entries of matrix are , and . Suppose also that when is even, and when is odd. So for example the entry in the second column and first row is . Then . How many pivot columns would have?       (2 points) Suppose , . In the grids below, sketch a) the span of the columns of and b) the solution set of . You do not need to show your work.   (a)           (b)                   (2 points) Write down the solutions to in parametric vector form. You do not need to show your work.   ,       (2 points) Please show your work for this question.  Construct a linear system and use row reductions to determine , , so that the function passes through the points , , . Please show your work.     "
 },
 {
   "id": "se1e-3-1",
@@ -260,6 +260,69 @@ var ptx_lunr_docs = [
   "number": "6",
   "title": "",
   "body": "  (2 points) Please show your work for this question.  Construct a linear system and use row reductions to determine , , so that the function passes through the points , , . Please show your work.   "
+},
+{
+  "id": "se1f",
+  "level": "1",
+  "url": "se1f.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Linear Algebra Sample Exam 1F",
+  "body": "  Linear Algebra Sample Exam 1F    Work done on scratch paper will not be graded. You don't need to show your work on pages 1 and 2.        (5 points) Indicate whether the situations are possible or impossible .        possible  impossible         a) is a matrix with linearly independent columns, and is not in the span of the columns of .           b) A set of vectors for are linearly dependent. The only way that is when for .           c) Let be a matrix. The only solution to is .           d) is a one-to-one linear transform, is , and does not have a solution for some .           e) is a matrix transform that maps vectors in to , . Matrix is , and is a vector in .               (7 points) Indicate true if the statement is true, otherwise, indicate false .        true  false         a) The transform is a linear transform.           b) If is the standard matrix for a linear transform that is one-to-one and onto, then must be square.           c) If and solve the inhomogeneous system , solves the homogeneous system .           d) If a set of vectors is linearly independent, then any subset such as must also be linearly independent.           e) If vectors , , and are linearly dependent vectors in , then their span is a plane in .           f) If a consistent system has at least one free variable, then it has infinitely many solutions.           g) A matrix with pivotal rows also has pivotal columns.                  (2 points) Suppose , is the standard matrix for a transform that reflects vectors in over the line , and is the standard matrix for the transform , where . In the grids below, sketch a) the range of the transform , and b) the range of the transform . You do not need to show your work.   (a)           (b)                (7 points) Fill in the blanks. You do not need to justify your reasoning.     If is and is a linear transform that first reflects points in through the line , and then projects them onto the -axis, then where , , and .       is a non-zero matrix that is in RREF, is a solution to , and every entry of is either or . How many different matrices can you construct that meet all of these criteria, if any? If there are no such matrices you can write NONE.       Suppose and the image of under the transform is , then and .      If , then is in the span of the columns of when . Also, is a solution to when       Suppose , , and . If has pivots, then the transform satisfies , , and satisfies , then , .      The linear system whose augmented matrix is is inconsistent when .      Consider the linear system and . The system will have no solutions when and . But the system will have an infinite number of solutions when and .          (2 points) Suppose are non-zero vectors in , and that and span a plane. Then is equal to which of the sets below? You do not need to show your work.        equal to  not equal to         a)           b)           c)           d)               (2 points) Please show your work for this question.  Determine all values of , if any, so that the span of the vectors is only a plane in . Please show your work.   , ,      "
+},
+{
+  "id": "se1f-3-1",
+  "level": "2",
+  "url": "se1f.html#se1f-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  (5 points) Indicate whether the situations are possible or impossible .        possible  impossible         a) is a matrix with linearly independent columns, and is not in the span of the columns of .           b) A set of vectors for are linearly dependent. The only way that is when for .           c) Let be a matrix. The only solution to is .           d) is a one-to-one linear transform, is , and does not have a solution for some .           e) is a matrix transform that maps vectors in to , . Matrix is , and is a vector in .            "
+},
+{
+  "id": "se1f-3-2",
+  "level": "2",
+  "url": "se1f.html#se1f-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  (7 points) Indicate true if the statement is true, otherwise, indicate false .        true  false         a) The transform is a linear transform.           b) If is the standard matrix for a linear transform that is one-to-one and onto, then must be square.           c) If and solve the inhomogeneous system , solves the homogeneous system .           d) If a set of vectors is linearly independent, then any subset such as must also be linearly independent.           e) If vectors , , and are linearly dependent vectors in , then their span is a plane in .           f) If a consistent system has at least one free variable, then it has infinitely many solutions.           g) A matrix with pivotal rows also has pivotal columns.            "
+},
+{
+  "id": "se1f-4-1",
+  "level": "2",
+  "url": "se1f.html#se1f-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  (2 points) Suppose , is the standard matrix for a transform that reflects vectors in over the line , and is the standard matrix for the transform , where . In the grids below, sketch a) the range of the transform , and b) the range of the transform . You do not need to show your work.   (a)           (b)             "
+},
+{
+  "id": "se1f-4-2",
+  "level": "2",
+  "url": "se1f.html#se1f-4-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  (7 points) Fill in the blanks. You do not need to justify your reasoning.     If is and is a linear transform that first reflects points in through the line , and then projects them onto the -axis, then where , , and .       is a non-zero matrix that is in RREF, is a solution to , and every entry of is either or . How many different matrices can you construct that meet all of these criteria, if any? If there are no such matrices you can write NONE.       Suppose and the image of under the transform is , then and .      If , then is in the span of the columns of when . Also, is a solution to when       Suppose , , and . If has pivots, then the transform satisfies , , and satisfies , then , .      The linear system whose augmented matrix is is inconsistent when .      Consider the linear system and . The system will have no solutions when and . But the system will have an infinite number of solutions when and .    "
+},
+{
+  "id": "se1f-5-1",
+  "level": "2",
+  "url": "se1f.html#se1f-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  (2 points) Suppose are non-zero vectors in , and that and span a plane. Then is equal to which of the sets below? You do not need to show your work.        equal to  not equal to         a)           b)           c)           d)            "
+},
+{
+  "id": "se1f-5-2",
+  "level": "2",
+  "url": "se1f.html#se1f-5-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  (2 points) Please show your work for this question.  Determine all values of , if any, so that the span of the vectors is only a plane in . Please show your work.   , ,    "
 },
 {
   "id": "handouts",

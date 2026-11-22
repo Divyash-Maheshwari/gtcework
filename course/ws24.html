@@ -61,14 +61,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.4.0';
+eBookConfig.runestone_version = '8.4.2';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.7e2ee203f2ecd6c8.bundle.js"></script><script src="_static/prefix-23.7d27cb317c36911a.bundle.js"></script><script src="_static/prefix-runestone.35a40fea06647cf2.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-runestone.7062ede5334282a6.css">
+<script src="_static/prefix-runtime.124380009849b47e.bundle.js"></script><script src="_static/prefix-23.7d27cb317c36911a.bundle.js"></script><script src="_static/prefix-runestone.1f0ec0deacd7bb16.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-runestone.52ceae47a9e6e8ed.css">
 <script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -175,6 +175,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="ws24.html" class="internal"><span class="title">24 Quadratic Forms (LN 2.2, 2.3)</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="se1b.html" class="internal"><span class="title">Linear Algebra Sample Exam 1B</span></a></div></li>
 <li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="se1e.html" class="internal"><span class="title">Linear Algebra Sample Exam 1E</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="se1f.html" class="internal"><span class="title">Linear Algebra Sample Exam 1F</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter"><div class="toc-title-box"><a href="handouts.html" class="internal"><span class="title">Handouts</span></a></div></li>
@@ -250,14 +251,13 @@ eBookConfig.enable_chatcodes =  false;
 </div></section><section class="onepage" id="ws24-3">
 <section class="paragraphs" id="ws24-3-1"><h2 class="heading"><span class="title">24.1 Expressing Quadratic Forms in Terms of Symmetric Matrices.</span></h2>
 <div class="para" id="ws24-3-1-2"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<span class="process-math">\(\)</span>
-<div class="para" id="ws24-3-1-4"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-3-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<div class="para" id="ws24-3-1-5">
-<dfn class="terminology">Definition</dfn><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-3-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-3-1-3"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="ws24-3-1-4">
+<dfn class="terminology">Definition</dfn><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-3-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-3-1-6">A <dfn class="terminology">quadratic form</dfn> is a function <span class="process-math">\(Q : \mathbb{R}^n \to \mathbb{R}\text{,}\)</span> given by<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-3-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-3-1-5">A <dfn class="terminology">quadratic form</dfn> is a function <span class="process-math">\(Q : \mathbb{R}^n \to \mathbb{R}\text{,}\)</span> given by<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-3-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-3-1-7">
+<div class="para" id="ws24-3-1-6">
 <span class="process-math">\(Q(\vec{x}) = \vec{x}^T A \vec{x} =
 \begin{pmatrix} x_1 \amp x_2 \amp \cdots \amp x_n \end{pmatrix}
 \begin{pmatrix}
@@ -266,152 +266,147 @@ a_{12} \amp a_{22} \amp \cdots \amp a_{2n} \\
 \vdots \amp \vdots \amp \ddots \amp \vdots \\
 a_{1n} \amp a_{2n} \amp \cdots \amp a_{nn}
 \end{pmatrix}
-\begin{pmatrix} x_1 \\ x_2 \\ \vdots \\ x_n \end{pmatrix}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-3-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+\begin{pmatrix} x_1 \\ x_2 \\ \vdots \\ x_n \end{pmatrix}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-3-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-3-1-8">Matrix <span class="process-math">\(A\)</span> is <span class="process-math">\(n \times n\)</span> and symmetric, and <span class="process-math">\(\vec{x}\)</span> is a variable vector in <span class="process-math">\(\mathbb{R}^n\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-3-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-3-1-7">Matrix <span class="process-math">\(A\)</span> is <span class="process-math">\(n \times n\)</span> and symmetric, and <span class="process-math">\(\vec{x}\)</span> is a variable vector in <span class="process-math">\(\mathbb{R}^n\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-3-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-3-1-9">Example: express <span class="process-math">\(Q = 3x^2_1 + x^2_2 + 8x^3_3 + 4x_1x_2 - 6x_2x_3\)</span> in the form <span class="process-math">\(Q = x^T Ax\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-3-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-3-1-8">Example: express <span class="process-math">\(Q = 3x^2_1 + x^2_2 + 8x^3_3 + 4x_1x_2 - 6x_2x_3\)</span> in the form <span class="process-math">\(Q = x^T Ax\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-3-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraphs: 24.1 Expressing Quadratic Forms in Terms of Symmetric Matrices"><a tabindex="-1" href="#ws24-3-1" title="Copy heading and permalink for Paragraphs: 24.1 Expressing Quadratic Forms in Terms of Symmetric Matrices" aria-label="Copy heading and permalink for Paragraphs: 24.1 Expressing Quadratic Forms in Terms of Symmetric Matrices">🔗</a></div>
 </section></section><section class="onepage" id="ws24-4">
 <section class="paragraphs" id="ws24-4-1"><h2 class="heading"><span class="title">24.2 The Principle Axes Theorem.</span></h2>
 <div class="para" id="ws24-4-1-2"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<span class="process-math">\(\)</span>
-<div class="para" id="ws24-4-1-4"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<div class="para" id="ws24-4-1-5">
-<dfn class="terminology">Theorem</dfn><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-4-1-3"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="ws24-4-1-4">
+<dfn class="terminology">Theorem</dfn><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-4-1-6">If <span class="process-math">\(A\)</span> is a symmetric matrix then there exists an orthogonal change of variable <span class="process-math">\(\vec{x} = P \vec{y}\)</span> that transforms <span class="process-math">\(\vec{x}^T A \vec{x}\)</span> to <span class="process-math">\(\vec{y}^T D \vec{y}\)</span> with no cross-product terms.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-4-1-5">If <span class="process-math">\(A\)</span> is a symmetric matrix then there exists an orthogonal change of variable <span class="process-math">\(\vec{x} = P \vec{y}\)</span> that transforms <span class="process-math">\(\vec{x}^T A \vec{x}\)</span> to <span class="process-math">\(\vec{y}^T D \vec{y}\)</span> with no cross-product terms.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="ws24-4-1-6">
+<em class="emphasis">Proof in the lecture videos/textbook.</em><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="ws24-4-1-7">
-<em class="emphasis">Proof in the lecture videos/textbook.</em><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="process-math">\(\textbf{24.2.1 Example}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-4-1-8">
-<span class="process-math">\(\textbf{24.2.1 Example}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-4-1-8">Consider: <span class="process-math">\(Q = x^2 + y^2 + 2kxy\)</span> where <span class="process-math">\(k \in \mathbb{R}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-4-1-9">Consider: <span class="process-math">\(Q = x^2 + y^2 + 2kxy\)</span> where <span class="process-math">\(k \in \mathbb{R}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para logical" id="ws24-4-1-10">
-<ol class="lower-alpha" style="list-style: ptx-marker-1;" id="ws24-4-1-10-1">
-<li id="ws24-4-1-10-1-1">
-<div class="para" id="p-derived-ws24-4-1-10-1-1">Make a change of variable that transforms the quadratic form into another quadratic form that has no cross-product terms.</div>
-<div class="autopermalink" aria-hidden="true" data-description="Item a"><a tabindex="-1" href="#ws24-4-1-10-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
+<div class="para logical" id="ws24-4-1-9">
+<ol class="lower-alpha" style="list-style: ptx-marker-1;" id="ws24-4-1-9-1">
+<li id="ws24-4-1-9-1-1">
+<div class="para" id="p-derived-ws24-4-1-9-1-1">Make a change of variable that transforms the quadratic form into another quadratic form that has no cross-product terms.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item a"><a tabindex="-1" href="#ws24-4-1-9-1-1" title="Copy heading and permalink for Item a" aria-label="Copy heading and permalink for Item a">🔗</a></div>
 </li>
-<li id="ws24-4-1-10-1-2">
-<div class="para" id="p-derived-ws24-4-1-10-1-2">For what values of <span class="process-math">\(k\)</span> will <span class="process-math">\(Q\)</span> satisfy <span class="process-math">\(Q \geq 0\)</span> for any <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{?}\)</span>
+<li id="ws24-4-1-9-1-2">
+<div class="para" id="p-derived-ws24-4-1-9-1-2">For what values of <span class="process-math">\(k\)</span> will <span class="process-math">\(Q\)</span> satisfy <span class="process-math">\(Q \geq 0\)</span> for any <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{?}\)</span>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item b"><a tabindex="-1" href="#ws24-4-1-10-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item b"><a tabindex="-1" href="#ws24-4-1-9-1-2" title="Copy heading and permalink for Item b" aria-label="Copy heading and permalink for Item b">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-4-1-11">
-<em class="emphasis">Tip: it may help to plot the surfaces in Desmos 3D to see what the surface looks like as you change the value of <span class="process-math">\(k\text{.}\)</span></em><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-4-1-10">
+<em class="emphasis">Tip: it may help to plot the surfaces in Desmos 3D to see what the surface looks like as you change the value of <span class="process-math">\(k\text{.}\)</span></em><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-4-1-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraphs: 24.2 The Principle Axes Theorem"><a tabindex="-1" href="#ws24-4-1" title="Copy heading and permalink for Paragraphs: 24.2 The Principle Axes Theorem" aria-label="Copy heading and permalink for Paragraphs: 24.2 The Principle Axes Theorem">🔗</a></div>
 </section></section><section class="onepage" id="ws24-5">
 <section class="paragraphs" id="ws24-5-1"><h2 class="heading"><span class="title">24.3 Classifying Quadratic Surfaces.</span></h2>
 <div class="para" id="ws24-5-1-2"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<span class="process-math">\(\)</span>
-<div class="para" id="ws24-5-1-4"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<div class="para" id="ws24-5-1-5">Our goal: <dfn class="terminology">solve optimization problems with quadratic functions.</dfn><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-5-1-3"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="ws24-5-1-4">Our goal: <dfn class="terminology">solve optimization problems with quadratic functions.</dfn><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-5-1-6">Take for example the surface:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-5-1-5">Take for example the surface:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-5-1-7">
+<div class="para" id="ws24-5-1-6">
 <span class="process-math">\(Q = x^2 y^2 = \vec{x}^t
 \begin{pmatrix}
 1 \amp 0 \\
 0 \amp 1 
 \end{pmatrix}
-\vec{x}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+\vec{x}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-5-1-8">If we set <span class="process-math">\(Q\)</span> to be constant, <span class="process-math">\(Q = k^2\text{,}\)</span> we obtain the equation of a circle whose radius is <span class="process-math">\(k^2\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-5-1-7">If we set <span class="process-math">\(Q\)</span> to be constant, <span class="process-math">\(Q = k^2\text{,}\)</span> we obtain the equation of a circle whose radius is <span class="process-math">\(k^2\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-5-1-9">
-<span class="process-math">\(k^2 = x^2 +  y^2\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-5-1-8">
+<span class="process-math">\(k^2 = x^2 +  y^2\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/f24-3-1.svg" role="img" class="contained"></div>
-<div class="para" id="ws24-5-1-11">The surface above has a unique minimum at the origin. What about other surfaces?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-5-1-10">The surface above has a unique minimum at the origin. What about other surfaces?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-5-1-12">
-<dfn class="terminology">Definition</dfn><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-5-1-11">
+<dfn class="terminology">Definition</dfn><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="ws24-5-1-13">
+<div class="para logical" id="ws24-5-1-12">
 <div class="para">A quadratic form <span class="process-math">\(Q\)</span> is</div>
-<ul class="disc" id="ws24-5-1-13-2">
-<li id="ws24-5-1-13-2-1">
-<div class="para" id="ws24-5-1-13-2-1-1">
-<dfn class="terminology">positive definite</dfn> if <span class="process-math">\(Q \gt 0\)</span> for all <span class="process-math">\(\vec{x} \neq \vec{0}.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-13-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<ul class="disc" id="ws24-5-1-12-2">
+<li id="ws24-5-1-12-2-1">
+<div class="para" id="ws24-5-1-12-2-1-1">
+<dfn class="terminology">positive definite</dfn> if <span class="process-math">\(Q \gt 0\)</span> for all <span class="process-math">\(\vec{x} \neq \vec{0}.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-12-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-13-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-12-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ws24-5-1-13-2-2">
-<div class="para" id="ws24-5-1-13-2-2-1">
-<dfn class="terminology">negative definite</dfn> if <span class="process-math">\(Q \lt 0\)</span> for all <span class="process-math">\(\vec{x} \neq \vec{0}.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-13-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ws24-5-1-12-2-2">
+<div class="para" id="ws24-5-1-12-2-2-1">
+<dfn class="terminology">negative definite</dfn> if <span class="process-math">\(Q \lt 0\)</span> for all <span class="process-math">\(\vec{x} \neq \vec{0}.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-12-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-13-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-12-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ws24-5-1-13-2-3">
-<div class="para" id="ws24-5-1-13-2-3-1">
-<dfn class="terminology">positive semidefinite</dfn> if <span class="process-math">\(Q \geq 0\)</span> for all <span class="process-math">\(\vec{x}.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-13-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ws24-5-1-12-2-3">
+<div class="para" id="ws24-5-1-12-2-3-1">
+<dfn class="terminology">positive semidefinite</dfn> if <span class="process-math">\(Q \geq 0\)</span> for all <span class="process-math">\(\vec{x}.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-12-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-13-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-12-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ws24-5-1-13-2-4">
-<div class="para" id="ws24-5-1-13-2-4-1">
-<dfn class="terminology">negative semidefinite</dfn> if <span class="process-math">\(Q \leq 0\)</span> for all <span class="process-math">\(\vec{x}.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-13-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ws24-5-1-12-2-4">
+<div class="para" id="ws24-5-1-12-2-4-1">
+<dfn class="terminology">negative semidefinite</dfn> if <span class="process-math">\(Q \leq 0\)</span> for all <span class="process-math">\(\vec{x}.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-12-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-13-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-12-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ws24-5-1-13-2-5">
-<div class="para" id="ws24-5-1-13-2-5-1">
-<dfn class="terminology">indefinite</dfn> if <span class="process-math">\(Q\)</span> takes on positive and negative values for <span class="process-math">\(\vec{x} \neq \vec{0}.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-13-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ws24-5-1-12-2-5">
+<div class="para" id="ws24-5-1-12-2-5-1">
+<dfn class="terminology">indefinite</dfn> if <span class="process-math">\(Q\)</span> takes on positive and negative values for <span class="process-math">\(\vec{x} \neq \vec{0}.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-12-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-13-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-12-2-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ws24-5-1-14">
-<dfn class="terminology">Theorem</dfn><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-5-1-13">
+<dfn class="terminology">Theorem</dfn><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="ws24-5-1-15">
+<div class="para logical" id="ws24-5-1-14">
 <div class="para">If <span class="process-math">\(A\)</span> is a matrix with eigenvalues <span class="process-math">\(\lambda_i\text{,}\)</span> then <span class="process-math">\(Q = \vec{x}^T A\vec{x}\)</span> is</div>
-<ul class="disc" id="ws24-5-1-15-4">
-<li id="ws24-5-1-15-4-1">
-<div class="para" id="ws24-5-1-15-4-1-1">
-<dfn class="terminology">positive definite</dfn> when all eigenvalues are positive<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-15-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<ul class="disc" id="ws24-5-1-14-4">
+<li id="ws24-5-1-14-4-1">
+<div class="para" id="ws24-5-1-14-4-1-1">
+<dfn class="terminology">positive definite</dfn> when all eigenvalues are positive<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-14-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-15-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-14-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ws24-5-1-15-4-2">
-<div class="para" id="ws24-5-1-15-4-2-1">
-<dfn class="terminology">negative definite</dfn> when all eigenvalues are negative<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-15-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ws24-5-1-14-4-2">
+<div class="para" id="ws24-5-1-14-4-2-1">
+<dfn class="terminology">negative definite</dfn> when all eigenvalues are negative<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-14-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-15-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-14-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
-<li id="ws24-5-1-15-4-3">
-<div class="para" id="ws24-5-1-15-4-3-1">
-<dfn class="terminology">indefinite</dfn> when at least one eigenvalue is negative and at least one eigenvalue is positive<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-15-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="ws24-5-1-14-4-3">
+<div class="para" id="ws24-5-1-14-4-3-1">
+<dfn class="terminology">indefinite</dfn> when at least one eigenvalue is negative and at least one eigenvalue is positive<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-14-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-15-4-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#ws24-5-1-14-4-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-5-1-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraphs: 24.3 Classifying Quadratic Surfaces"><a tabindex="-1" href="#ws24-5-1" title="Copy heading and permalink for Paragraphs: 24.3 Classifying Quadratic Surfaces" aria-label="Copy heading and permalink for Paragraphs: 24.3 Classifying Quadratic Surfaces">🔗</a></div>
 </section></section><section class="onepage" id="ws24-6">
 <section class="paragraphs" id="ws24-6-1"><h2 class="heading"><span class="title">24.3.1 Example.</span></h2>
 <div class="para" id="ws24-6-1-2"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-6-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<span class="process-math">\(\)</span>
-<div class="para" id="ws24-6-1-4"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-6-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
-<div class="para" id="ws24-6-1-5">Assume <span class="process-math">\(\vec{x} \in \mathbb{R}^3\text{.}\)</span> Construct the matrix of the quadratic form, and classify the quadratic form.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-6-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ws24-6-1-3"><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-6-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<div class="para" id="ws24-6-1-4">Assume <span class="process-math">\(\vec{x} \in \mathbb{R}^3\text{.}\)</span> Construct the matrix of the quadratic form, and classify the quadratic form.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-6-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="displaymath process-math" id="ws24-6-1-6">
-\begin{gather*}
-Q = 4x^2_3 - 2x_1x_2
-\end{gather*}
+<div class="para" id="ws24-6-1-5">
+<span class="process-math">\(Q = 4x^2_3 - 2x_1x_2\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#ws24-6-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraphs: 24.3.1 Example"><a tabindex="-1" href="#ws24-6-1" title="Copy heading and permalink for Paragraphs: 24.3.1 Example" aria-label="Copy heading and permalink for Paragraphs: 24.3.1 Example">🔗</a></div>
 </section></section><div class="autopermalink" aria-hidden="true" data-description="Worksheet: 24 Quadratic Forms (LN 2.2, 2.3)"><a tabindex="-1" href="#ws24" title="Copy heading and permalink for Worksheet: 24 Quadratic Forms (LN 2.2, 2.3)" aria-label="Copy heading and permalink for Worksheet: 24 Quadratic Forms (LN 2.2, 2.3)">🔗</a></div>
