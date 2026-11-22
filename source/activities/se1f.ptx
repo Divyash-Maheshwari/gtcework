@@ -180,7 +180,7 @@
         <exercise workspace="0.25in">
             <statement>
                 <p>
-                    (2 points) Suppose <m>A = \begin{pmatrix} -1 &amp; 2 \\ 2 &amp; -4 \end{pmatrix}</m>, <m>B</m> is that standard matrix for a transform the reflects vectors in <m>\mathbb{R}^2</m> over the line <m>x_1 +x_2 = 0</m>, and <m>C</m> is the standard matrix for the transform <m>T_C : \vec{x} \mapsto C\vec{x}</m>, where <m>C = BA</m>. In the grids below, sketch a) the range of the transform <m>\vec{x} \mapsto A\vec{x}</m>, and b) the range of the transform <m>\vec{x} \mapsto C\vec{x}</m>. You do not need to show your work.
+                    (2 points) Suppose <m>A = \begin{pmatrix} -1 &amp; 2 \\ 2 &amp; -4 \end{pmatrix}</m>, <m>B</m> is the standard matrix for a transform that reflects vectors in <m>\mathbb{R}^2</m> over the line <m>x_1 +x_2 = 0</m>, and <m>C</m> is the standard matrix for the transform <m>T_C : \vec{x} \mapsto C\vec{x}</m>, where <m>C = BA</m>. In the grids below, sketch a) the range of the transform <m>\vec{x} \mapsto A\vec{x}</m>, and b) the range of the transform <m>\vec{x} \mapsto C\vec{x}</m>. You do not need to show your work.
                 </p>
                 <sidebyside widths="4% 32% 4% 32%">  
           <p> (a) </p>
@@ -223,7 +223,7 @@
             <task>
                 <statement>
                     <p>
-                        <m>A</m> is a <m>3 \times 2</m> non-zero matrix that is in RREF, <m>\vec{x} = \begin{pmatrix} 1 \\ 0 \end{pmatrix}</m> is a solution to <m>A\vec{x} - \vec{0}</m>, and every entry of <m>A</m> is either <m>1</m> or <m>0</m>. How many different matrices can you construct that meet all of these criteria, if any? If there are no such matrices you can write NONE. <m>\fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>
+                        <m>A</m> is a <m>3 \times 2</m> non-zero matrix that is in RREF, <m>\vec{x} = \begin{pmatrix} 1 \\ 0 \end{pmatrix}</m> is a solution to <m>A\vec{x} = \vec{0}</m>, and every entry of <m>A</m> is either <m>1</m> or <m>0</m>. How many different matrices can you construct that meet all of these criteria, if any? If there are no such matrices you can write NONE. <m>\fbox{\phantom{\rule{3em}{0pt}}\rule{0pt}{1.4ex}}</m>
                     </p>
                 </statement>
             </task>
@@ -258,7 +258,7 @@
             <task>
                 <statement>
                     <p>
-                        Consider the linear system <m>3x + hy = 7</m> and <m>9x + 15y = k</m>. Thesystem will have no solutions when <m>k = 0</m>and <m>h = \fbox{\phantom{\rule{2em}{1.4ex}}}</m>. But the system will have an infinite number of solutions when <m>h = 5</m> and <m>k = \fbox{\phantom{\rule{2em}{1.4ex}}}</m>.
+                        Consider the linear system <m>3x + hy = 7</m> and <m>9x + 15y = k</m>. The system will have no solutions when <m>k = 0</m> and <m>h = \fbox{\phantom{\rule{2em}{1.4ex}}}</m>. But the system will have an infinite number of solutions when <m>h = 5</m> and <m>k = \fbox{\phantom{\rule{2em}{1.4ex}}}</m>.
                     </p>
                 </statement>
             </task>
@@ -266,4 +266,81 @@
     </page>
 
 <!-- Page 3 -->
+    <page>
+        <exercise>
+            <statement>
+                <p>
+                    (2 points) Suppose <m>\vec{v_1}, \vec{v_2}</m> are non-zero vectors in <m>\mathbb{R}^n</m>, and that <m>\vec{v_1}</m> and <m>\vec{v_2}</m> span a plane. Then <m>S = \text{Span}\{\vec{v_1},\vec{v_2}\}</m> is equal to which of the sets below? You do not need to show your work.
+                </p>
+                <tabular>
+                    <col width="45%" />
+                    <col width="20%" />
+                    <col width="20%" />
+                    <row bottom="minor">
+                        <cell></cell>
+                        <cell><p>equal to <m>S</m></p></cell>
+                        <cell><p>not equal to <m>S</m></p></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><p>a) <m>W = \text{Span}\{ \vec{v_1}, \vec{v_2}, \vec{0} \}</m></p></cell>
+                        <cell><m>\bigcirc</m></cell>
+                        <cell><m>\bigcirc</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><p>b) <m>U = \text{Span}\{\vec{v_1}, \vec{v_2}, \vec{v_1} + 12\vec{v_2}</m></p></cell>
+                        <cell><m>\bigcirc</m></cell>
+                        <cell><m>\bigcirc</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><p>c) <m>X = \text{Span}\{\vec{v_1} + \vec{v_2}, -\vec{v_1} - \vec{v_2}\}</m></p></cell>
+                        <cell><m>\bigcirc</m></cell>
+                        <cell><m>\bigcirc</m></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell><p>d) <m>Y = \text{Span}\{\vec{v_1} + \vec{v_2}, \vec{v_2}\}</m></p></cell>
+                        <cell><m>\bigcirc</m></cell>
+                        <cell><m>\bigcirc</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    (2 points) Please show your work for this question.
+                </p>
+                <p>
+                    Determine all values of <m>k</m>, if any, so that the span of the vectors is only a plane in <m>\mathbb{R}^3</m>. Please show your work.
+                    <md>
+                        v_1 = \begin{pmatrix} 1 \\ 0 \\ -k \end{pmatrix}, \quad v_2 =\begin{pmatrix} 0 \\ 1 \\ 6 \end{pmatrix}, \quad v_3 = \begin{pmatrix} k \\ -1 \\ 5k \end{pmatrix}
+                    </md>
+                </p>
+            </statement>
+        </exercise>
+    </page>
 </worksheet>
