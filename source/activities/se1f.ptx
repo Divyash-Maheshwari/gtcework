@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!-- Transcribed by Divyash Maheshwari -->
 <worksheet xml:id="se1f">
+<!-- Transcribed by Divyash Maheshwari -->
   <title>Linear Algebra Sample Exam 1F</title>
   <introduction>
     <p>
@@ -335,10 +333,10 @@
                     (2 points) Please show your work for this question.
                 </p>
                 <p>
-                    Determine all values of <m>k</m>, if any, so that the span of the vectors is only a plane in <m>\mathbb{R}^3</m>. Please show your work.
-                    <md>
-                        v_1 = \begin{pmatrix} 1 \\ 0 \\ -k \end{pmatrix}, \quad v_2 =\begin{pmatrix} 0 \\ 1 \\ 6 \end{pmatrix}, \quad v_3 = \begin{pmatrix} k \\ -1 \\ 5k \end{pmatrix}
-                    </md>
+                    Determine all values of <m>k</m>, if any, so that the span of the vectors is only a plane in <m>\mathbb{R}^3</m>. Please show your work.</p>
+                    <p>
+                    <m>
+                        v_1 = \begin{pmatrix} 1 \\ 0 \\ -k \end{pmatrix}</m>, <m>v_2 =\begin{pmatrix} 0 \\ 1 \\ 6 \end{pmatrix}</m>, <m>v_3 = \begin{pmatrix} k \\ -1 \\ 5k \end{pmatrix}</m>
                 </p>
             </statement>
         </exercise>

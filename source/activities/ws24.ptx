@@ -20,7 +20,7 @@
   <page>
     <paragraphs>
     <title>24.1 Expressing Quadratic Forms in Terms of Symmetric Matrices</title>
-      <p></p><m></m><p></p>
+      <p></p><p></p>
       <p><term>Definition</term></p>
         <p>
           A <term>quadratic form</term> is a function
@@ -44,7 +44,7 @@
   <page>
     <paragraphs>
     <title>24.2 The Principle Axes Theorem</title>
-    <p></p><m></m><p></p>
+    <p></p><p></p>
       <p><term>Theorem</term></p>
         <p>
           If <m>A</m> is a symmetric matrix then there exists an orthogonal change of variable <m>\vec{x} = P \vec{y}</m> that transforms <m>\vec{x}^T A \vec{x}</m> to <m>\vec{y}^T D \vec{y}</m> with no cross-product terms.
@@ -65,7 +65,7 @@
   <page>
     <paragraphs>
     <title>24.3 Classifying Quadratic Surfaces</title>
-    <p></p><m></m><p></p>
+    <p></p><p></p>
       <p>Our goal: <term>solve optimization problems with quadratic functions.</term></p>
       <p>Take for example the surface: </p>
         <p><m>
@@ -126,9 +126,9 @@
   <page>
     <paragraphs>
       <title>24.3.1 Example</title>
-      <p></p><m></m><p></p>
+      <p></p><p></p>
         <p>Assume <m>\vec{x} \in \mathbb{R}^3</m>. Construct the matrix of the quadratic form, and classify the quadratic form.</p>
-        <md><mrow>Q = 4x^2_3 - 2x_1x_2</mrow></md>
+        <p><m>Q = 4x^2_3 - 2x_1x_2</m></p>
     </paragraphs>
   </page>
   <!-- Optional introduction -->
