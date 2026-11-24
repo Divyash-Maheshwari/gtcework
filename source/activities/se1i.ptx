@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Transcribed by Divyash Maheshwari -->
+<worksheet xml:id="se1i">
+  <title>Linear Algebra Sample Exam 1I</title>
+
+  <introduction>
+    <p>
+      <em>Work done on scratch paper will not be graded. You don't need to show your work on pages 1 and 2.</em>
+    </p>
+  </introduction>
+<!-- Page 1 -->
+<page>
+  <exercise workspace="0.25in">
+    <statement>
+      <p>
+        (7 points) Indicate <term>true</term> if the statement is true, otherwise, indicate <term>false</term>.
+      </p>
+      <tabular>
+        <col width="88%" />
+        <col width="6%" />
+        <col width="6%" />
+        <row bottom="minor">
+            <cell></cell>
+            <cell>true</cell>
+            <cell>false</cell>
+        </row>
+        <row>
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+        <row>
+            <cell><p>a) The transform <m>T(x_1, x_2) = (x_1, 1)</m> is a linear transform.</p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row>
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+        <row>
+            <cell><p>b) If <m>A</m> is <m>m \times n</m>, <m>\vec{x} \in \mathbb{R}^n</m>, and there are some vectors <m>\vec{b} \in \mathbb{R}^m</m> that are not in the range of the transform <m>T(\vec{x}) = A\vec{x}</m>, then there cannot be a pivot in every column of <m>A</m>.</p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row>
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+        <row>
+            <cell><p>c) If <m>A</m> is an <m>m \times n</m> matrix and the homogeneous system <m>A\vec{x} = \vec{0}</m> has only the trivial solution, then <m>A\vec{x} = \vec{b}</m> must be consistent for every <m>\vec{b} \in \mathbb{R}^m</m>.</p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row>
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+        <row>
+            <cell><p>d) If <m>\vec{v_3}</m> is not a linear combination of vectors <m>\vec{v_1} \text{ and } \vec{v_2}</m>, then the set <m>\{\vec{v_1}, \vec{v_2}, \vec{v_3}\}</m> is linearly independent.</p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row>
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+        <row>
+            <cell><p>e) If the system <m>A\vec{x} = \vec{b}</m> is consistent and has a unique solution, then the vector <m>\vec{b}</m> cannot be the zero vector <m>\vec{0}</m>.</p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row>
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+        <row>
+            <cell><p>f) If the system <m>A\vec{x} = \vec{b}</m> is inconsistent, then the reduced row echelon form of the coefficient matrix <m>A</m> must contain a row of zeros.</p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row>
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+        <row>
+            <cell><p>g) If two matrices have the same RREF, then they are row equivalent.</p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row bottom="minor">
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+  <exercise workspace="0.5in">
+    <statement>
+      <p>
+        (5 points) Indicate whether the situations are <term>possible</term> or <term>impossible</term>.
+      </p>
+      <tabular>
+        <col width="76%"/>
+        <col width="12%"/>
+        <col width="12%"/>
+        <row bottom="minor">
+            <cell><p></p></cell>
+            <cell><p>possible</p></cell>
+            <cell><p>impossible</p></cell>
+        </row>
+        <row>
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+        <row>
+            <cell><p>a) <m>A \text{ is a } 5 \times 4</m> matrix that has <m>2</m> pivot columns, and <m>A\vec{x} = \vec{b}</m> is a linear system with <m>2</m> free variables.</p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row>
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+        <row>
+            <cell><p>b) Vectors <m>\vec{x}\text{, } \vec{y}\text{, and } \vec{z}</m> are linearly dependent, but <m>\vec{x} \text{ and } \vec{y}</m> are linearly independent.</p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row>
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+        <row>
+            <cell><p>c) Matrix <m>A \text{ is } m \times n\text{, } A\mathbf{x} = A\mathbf{y}</m>, vectors <m>\mathbf{x} \text{ and } \mathbf{y}</m> are in <m>\mathbb{R}^n</m>, <m>\mathbf{x} \neq \mathbf{y}</m>, and every row of <m>A</m> is pivotal.</p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row>
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+        <row>
+            <cell><p>d) <m>T(\vec{x}) = A\vec{x}</m> is a one-to-one linear transform and the columns of <m>A</m> are linearly dependent.</p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row>
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+        <row>
+            <cell><p>e) <m>T(\vec{x}) = A\vec{x}</m> is a linear transform, <m>\vec{x}</m> is a vector in <m>\mathbb{R}^2</m>, <m>A \text{ is a } 2 \times 2</m> matrix with two pivots, and the only vector in the range of the transform is the zero vector.</p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+            <cell><p><m>\bigcirc</m></p></cell>
+        </row>
+        <row bottom="minor">
+            <cell><p></p></cell>
+            <cell></cell>
+            <cell></cell>
+        </row>
+      </tabular>
+    </statement>
+  </exercise>
+</page>
+
+</worksheet>
