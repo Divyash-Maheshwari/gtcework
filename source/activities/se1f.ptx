@@ -335,8 +335,8 @@
                 <p>
                     Determine all values of <m>k</m>, if any, so that the span of the vectors is only a plane in <m>\mathbb{R}^3</m>. Please show your work.</p>
                     <p>
-                    <m>
-                        v_1 = \begin{pmatrix} 1 \\ 0 \\ -k \end{pmatrix}</m>, <m>v_2 =\begin{pmatrix} 0 \\ 1 \\ 6 \end{pmatrix}</m>, <m>v_3 = \begin{pmatrix} k \\ -1 \\ 5k \end{pmatrix}</m>
+                    <md>
+                        v_1 = \begin{pmatrix} 1 \\ 0 \\ -k \end{pmatrix} \text{, } v_2 =\begin{pmatrix} 0 \\ 1 \\ 6 \end{pmatrix} \text{, } v_3 = \begin{pmatrix} k \\ -1 \\ 5k \end{pmatrix}</md>
                 </p>
             </statement>
         </exercise>

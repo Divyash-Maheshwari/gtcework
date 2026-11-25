@@ -260,9 +260,9 @@
                     (2 points) Write down the solutions to <m>A\vec{x} = \vec{b}</m> in parametric vector form. You do not need to show your work.
                 </p>
                 <p>
-                <m>
+                <md>
                 A = \begin{pmatrix} 1 &amp; -2 &amp; 0 &amp; 0 &amp; 1 \\ 0 &amp; 0 &amp; 1 &amp; 0 &amp; 2 \\ 0 &amp; 0 &amp; 0 &amp; 1 &amp; -4 \end{pmatrix}
-                </m>, <m>\vec{b} = \begin{pmatrix} 1 \\ 4 \\ 3 \end{pmatrix}</m>
+                \text{, } \vec{b} = \begin{pmatrix} 1 \\ 4 \\ 3 \end{pmatrix}</md>
                 </p>
             </statement>
         </exercise>

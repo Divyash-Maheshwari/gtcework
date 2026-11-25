@@ -333,11 +333,11 @@
         For what values of <m>k</m>, if any, are the vectors linearly dependent? Please show your work.
       </p>
       <p>
-      <m>
+      <md>
         v_1 = \begin{pmatrix} 1 \\ 0 \\ k \end{pmatrix}, \quad
         v_2 = \begin{pmatrix} 0 \\ 1 \\ 1 \end{pmatrix}, \quad
         v_3 = \begin{pmatrix} -k \\ 6k \\ 8 \end{pmatrix}
-      </m>
+      </md>
       </p>
     </statement>
   </exercise>

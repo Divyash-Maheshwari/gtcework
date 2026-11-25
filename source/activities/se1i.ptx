@@ -179,7 +179,7 @@
 
 <!-- Page 2 -->
 <page>
-  <exercise>
+  <exercise workspace="0.1in">
     <introduction><p>(7 points) Fill in the blanks. You do not need to justify your reasoning.</p></introduction>
     <task>
       <statement><p>If <m>A</m> is <m>2 \times 2</m> and <m>T_A (\vec{x}) = A\vec{x}</m> is a linear transform that first reflects points in <m>\mathbb{R}^2</m> through the line <m>x_1 = 0</m>, and then rotates them by <m>\pi / 2</m> radians clockwise about the origin, then <m>A = \begin{pmatrix} a_1 &amp; a_2 \\ a_3 &amp; a_4 \end{pmatrix}</m> where <m>a_1 = \fbox{\phantom{\rule{2em}{1.4ex}}}</m>, <m>a_2 = \fbox{\phantom{\rule{2em}{1.4ex}}}</m>, <m>a_3 = \fbox{\phantom{\rule{2em}{1.4ex}}}</m> and <m>a_4 = \fbox{\phantom{\rule{2em}{1.4ex}}}</m>.</p></statement>
@@ -232,6 +232,32 @@
             </prefigure>
           </image>
           </sidebyside>
+    </statement>
+  </exercise>
+</page>
+
+<!-- Page 3 -->
+<page>
+  <exercise workspace="0.25in">
+    <statement>
+      <p>
+        (2 points) Write down the solutions to <m>A\vec{x} = \vec{b}</m> in parametric vector form. You do not need to show your work.
+      </p>
+      <p>
+        <md>A = \begin{pmatrix} 1 &amp; 0 &amp; 2 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 &amp; -1 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 \end{pmatrix} \text{, } \vec{b} = \begin{pmatrix} 0 \\ -2 \\ 3 \end{pmatrix}</md>
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise workspace="4in">
+    <statement>
+      
+      <p>
+        (2 points) Please show your work for this question.
+        </p><p>
+        Construct a linear system and use row reductions to determine <m>a</m>, <m>b</m>, <m>c</m> so that the quadratic polynomial <m>{p(x) = ax^2 + bx + c}</m> passes through the points <m>P(-1, 0)</m>, <m>Q(0, 1)</m>, and <m>R(1, 4)</m>. Please show your work.
+      </p>
+      
     </statement>
   </exercise>
 </page>
