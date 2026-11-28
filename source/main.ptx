@@ -55,6 +55,7 @@
       <xi:include href="./activities/se1e.ptx"/>
       <xi:include href="./activities/se1f.ptx"/>
       <xi:include href="./activities/se1i.ptx"/>
+      <xi:include href="./activities/se1j.ptx"/>
       <!-- Add more xi:include files here to include them in the main course -->
     </chapter>
 
