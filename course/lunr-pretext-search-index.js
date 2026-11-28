@@ -388,6 +388,69 @@ var ptx_lunr_docs = [
   "body": "  (2 points) Please show your work for this question. Construct a linear system and use row reductions to determine , , so that the quadratic polynomial passes through the points , , and . Please show your work.   "
 },
 {
+  "id": "se1j",
+  "level": "1",
+  "url": "se1j.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Linear Algebra Sample Exam 1J",
+  "body": " Linear Algebra Sample Exam 1J    Work done on scratch paper will not be graded. You don't need to show your work on pages 1 and 2.       (5 points) Indicate whether the situations are possible or impossible .        possible  impossible         a) matrices and are row equivalent. The columns of span a line, and the columns of span a different line.           b) Vectors and are linearly independent and parallel.           c) Matrix is , , are vectors in , , and every column of is pivotal.           d) is a one-to-one matrix transform, , , and .           e) is a linear transform, is with a pivot in every column, and has a non-trivial solution.               (7 points) Indicate true if the statement is true, otherwise, indicate false .        true  false         a) The transform is a linear transform.           b) If is , and are vectors in , , and , then cannot be one-to-one.           c) If the system has infinitely many solutions for a given vector , then the homogeneous system also has infinitely many solutions.           d) The span of two linearly independent vectors in is equal to the span of .           e) If the linear system is consistent, is , and the columns of are , then there must be scalars for so that .           f) If is an matrix and the system has a unique solution for a specific vector , then has only the trivial solution.           g) If two matrices have the same pivot columns, then the two matrices are row equivalent.                 (2 points) Suppose . In the grids below, sketch a) the span of the columns of and b) the solution set of . You do not need to show your work.   (a)           (b)                (7 points) Fill in the blanks. You do not need to justify your reasoning.     If is and is a linear transform that first rotates points in clockwise about the origin by radians and then reflects them through the line , then where , , and .      Matrix is non-zero, , in RREF, has only pivot column, and every entry of is either or . How many different matrices can you make that meet all of these criteria?       Suppose is onto, where , then has exactly pivots, the domain of is , the co-domain of is , and the range of is .      If is a matrix, is in the span of the columns of , and is onto, then how many free variables does have?       Suppose , , and . If has pivots, the transform satisfies , , and satisfies , then , .      Suppose , and . Then is a representation of the system . The solution set of this system is the when and .      Consider the linear system and . The system will have no solutions when and . But the system will have an infinite number of solutions when and .         (2 points) Suppose is a linearly independent set of vectors in . Indicate whether the following sets are linearly independent or linearly dependent. You do not need to show your work.        linearly independent  linearly dependent         a)           b)           c)           d)                    (2 points) Please show your work for this question.  Determine all values of , if any, so that the span of the vectors is only a plane in . Assume is a real number. Please show your work.        "
+},
+{
+  "id": "se1j-3-1",
+  "level": "2",
+  "url": "se1j.html#se1j-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  (5 points) Indicate whether the situations are possible or impossible .        possible  impossible         a) matrices and are row equivalent. The columns of span a line, and the columns of span a different line.           b) Vectors and are linearly independent and parallel.           c) Matrix is , , are vectors in , , and every column of is pivotal.           d) is a one-to-one matrix transform, , , and .           e) is a linear transform, is with a pivot in every column, and has a non-trivial solution.            "
+},
+{
+  "id": "se1j-3-2",
+  "level": "2",
+  "url": "se1j.html#se1j-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  (7 points) Indicate true if the statement is true, otherwise, indicate false .        true  false         a) The transform is a linear transform.           b) If is , and are vectors in , , and , then cannot be one-to-one.           c) If the system has infinitely many solutions for a given vector , then the homogeneous system also has infinitely many solutions.           d) The span of two linearly independent vectors in is equal to the span of .           e) If the linear system is consistent, is , and the columns of are , then there must be scalars for so that .           f) If is an matrix and the system has a unique solution for a specific vector , then has only the trivial solution.           g) If two matrices have the same pivot columns, then the two matrices are row equivalent.            "
+},
+{
+  "id": "se1j-4-1",
+  "level": "2",
+  "url": "se1j.html#se1j-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  (2 points) Suppose . In the grids below, sketch a) the span of the columns of and b) the solution set of . You do not need to show your work.   (a)           (b)             "
+},
+{
+  "id": "se1j-4-2",
+  "level": "2",
+  "url": "se1j.html#se1j-4-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  (7 points) Fill in the blanks. You do not need to justify your reasoning.     If is and is a linear transform that first rotates points in clockwise about the origin by radians and then reflects them through the line , then where , , and .      Matrix is non-zero, , in RREF, has only pivot column, and every entry of is either or . How many different matrices can you make that meet all of these criteria?       Suppose is onto, where , then has exactly pivots, the domain of is , the co-domain of is , and the range of is .      If is a matrix, is in the span of the columns of , and is onto, then how many free variables does have?       Suppose , , and . If has pivots, the transform satisfies , , and satisfies , then , .      Suppose , and . Then is a representation of the system . The solution set of this system is the when and .      Consider the linear system and . The system will have no solutions when and . But the system will have an infinite number of solutions when and .    "
+},
+{
+  "id": "se1j-5-1",
+  "level": "2",
+  "url": "se1j.html#se1j-5-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  (2 points) Suppose is a linearly independent set of vectors in . Indicate whether the following sets are linearly independent or linearly dependent. You do not need to show your work.        linearly independent  linearly dependent         a)           b)           c)           d)                 "
+},
+{
+  "id": "se1j-5-2",
+  "level": "2",
+  "url": "se1j.html#se1j-5-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  (2 points) Please show your work for this question.  Determine all values of , if any, so that the span of the vectors is only a plane in . Assume is a real number. Please show your work.      "
+},
+{
   "id": "handouts",
   "level": "1",
   "url": "handouts.html",
